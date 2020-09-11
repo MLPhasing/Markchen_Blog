@@ -2,15 +2,9 @@
 
 Welcome to Mark Chen's blog. The blog is in testing phase now.
 
-**Testing the bold folder**
-
-<center>
-Test
-</center>
-
 <details>
     <summary>
-    20200911 Javascript Homework Here
+    <em>20200911 Javascript Homework Here</em>
     </summary>
-    [test](Homework_index.html)
+    [Homework - THE MOST BORING GAME](https://markchenyutian.github.io/Markchen_Blog/)
 </details>
