@@ -11,7 +11,7 @@ Welcome to Mark Chen's blog. The blog is in testing phase now.
 
 ### Machine Learning & Neural Network
 
-<center><img src=https://markchenyutian.github.io/Markchen_Blog/Assets/1.png style="zoom:50%"></center>
+<center><img src=https://markchenyutian.github.io/Markchen_Blog/Assets/1.png width=50% height=50%></center>
 
 
 * 神经网络怎么工作 [How do Neural Network work](https://markchenyutian.github.io/Markchen_Blog/_posts/2020-02-01-神经网络为什么work.markdown)
