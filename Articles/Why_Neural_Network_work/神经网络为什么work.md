@@ -1,4 +1,3 @@
-#! https://zhuanlan.zhihu.com/p/165653248
 # 神经网络是如何工作的?
 
 > By Mark Chen, 29299731
