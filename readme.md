@@ -13,6 +13,6 @@ Welcome to Mark Chen's blog. The blog is in testing phase now.
 
 ![](https://markchenyutian.github.io/Markchen_Blog/Assets/1.png)
 
-* 神经网络怎么工作<a herf="https://markchenyutian.github.io/Markchen_Blog/Articles/Why_Neural_Network_work/神经网络为什么work.md"> How did Neural Network work</a>
+* 神经网络怎么工作 [How did Neural Network work](https://markchenyutian.github.io/Markchen_Blog/Articles/Why_Neural_Network_work/神经网络为什么work.md)
 
-* 长短期记忆神经网络 <a herf="https://markchenyutian.github.io/Markchen_Blog/Articles/Long_Short_Term_Memory_Intro/LSTM.md"> Long-Short Term Memory (LSTM) </a>
+* 长短期记忆神经网络 [Long-Short Term Memory (LSTM)](https://markchenyutian.github.io/Markchen_Blog/Articles/Long_Short_Term_Memory_Intro/LSTM.md)
