@@ -34,11 +34,13 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ## Computer Science 3 Homework
 
-<describe>
+<details>
 <summary>Computer Science 3 Homework Test</summary>
+<p>
 Testing Text
 20200910 - Testing Hyperlink <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link ->] </a>
-</describe>
+</p>
+</details>
 
 <img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" align="left" height=80>
 
