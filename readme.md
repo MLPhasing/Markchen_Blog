@@ -13,7 +13,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 ## My Articles
 ### Neural Network and Machine Learning - *2019 Computer Science 2*
 
-![Pytorch](https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png)
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png" height=100>
 
 * 神经网络如何工作? [How Does Neural Network work](https://markchenyutian.github.io/Markchen_Blog/Articles/神经网络为什么work.html)
 * 什么是贝叶斯网络? [What is Bayes Net](https://markchenyutian.github.io/Markchen_Blog/Articles/什么是贝叶斯网络.html)
@@ -31,9 +31,13 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ## Computer Science 3 Homework
 
-![JavaScript](https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png)
 
-* 20200910 - `alert`, `prompt` and `confirm` [[link](https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html)]
+
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" align="left" height=50>
+
+&emsp; 20200910 - `alert`, `prompt` and `confirm` [[link](https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html)]
+
+&emsp;
 
 ----------
 
