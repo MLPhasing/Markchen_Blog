@@ -34,19 +34,29 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ## Computer Science 3 Homework
 
+<center>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=80>
+</center>
+
 <details>
-<summary>Computer Science 3 Homework Test</summary>
+<summary>Week 1 - Variable and Basic functions</summary>
 <p>
-Testing Text
-20200910 - Testing Hyperlink <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link ->] </a>
+There are 4 primitive types in JavaScript - Number, String, Boolean and Undefined.
+There's only 1 reference type - Object.
+In JS, there does NOT have the concept of `class` as in Java or Python. All the things enclosed by `{}` are objects, including function, etc.
+
+There are three functions that can interact with useds in the browser - `alert`, `prompt` and `confirm`
+
+<ul>
+<li>`alert` will give out a small pop-out window on the top of browser to notify user with some information</li>
+
+<li>`prompt` will return a String that is typed by the User. If user press "cancel", it will simplly return `null`. A default String can be setup for the pop-up window.</li>
+
+<li>`confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".</li>
+</ul>
 </p>
+20200910 - Testing Hyperlink <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link ->] </a>
 </details>
-
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" align="left" height=80>
-
-&emsp; 20200910 - `alert`, `prompt` and `confirm` <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link ->] </a>
-
-
 
 &emsp;
 
