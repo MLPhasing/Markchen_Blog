@@ -1,4 +1,5 @@
-# About This Site
+# Home Page
+## About This Site
 
 This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the site is in the Testing phase[^1] and here are the features in current plan:
 * Resource Sharing - e-books about Computer Science and Mathematics.
@@ -11,6 +12,8 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ## My Articles
 ### Neural Network and Machine Learning - *2019 Computer Science 2*
+
+![Pytorch](https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png)
 
 * 神经网络如何工作? [How Does Neural Network work](https://markchenyutian.github.io/Markchen_Blog/Articles/神经网络为什么work.html)
 * 什么是贝叶斯网络? [What is Bayes Net](https://markchenyutian.github.io/Markchen_Blog/Articles/什么是贝叶斯网络.html)
@@ -27,6 +30,11 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 ----------
 
 ## Computer Science 3 Homework
-* 20200910 - alert, prompt and confirm [[link](https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html)]
+
+![JavaScript](https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png)
+
+* 20200910 - `alert`, `prompt` and `confirm` [[link](https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html)]
+
+----------
 
 [^1]: So some hyperlink may not function properly or the website will be quite ugly
