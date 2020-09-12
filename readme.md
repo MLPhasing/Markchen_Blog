@@ -32,7 +32,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ----------
 
-## Computer Science 3 Homework
+## Computer Science 3 Homework & Notes
 
 <center>
 <img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=80>
@@ -40,6 +40,12 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
+<br>
+<b>20200910 - Homework <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link >] </a></b>
+
+<br>
+<br>
+
 <p>
 There are 4 primitive types in JavaScript - Number, String, Boolean and Undefined.
 There's only 1 reference type - Object.
@@ -55,7 +61,7 @@ There are three functions that can interact with useds in the browser - `alert`,
 <li>`confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".</li>
 </ul>
 </p>
-20200910 - Testing Hyperlink <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link ->] </a>
+
 </details>
 
 &emsp;
