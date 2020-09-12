@@ -37,7 +37,9 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 <img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" align="left" height=80>
 
-&emsp; 20200910 - `alert`, `prompt` and `confirm` [[link &nearr;](https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html)]
+&emsp; 20200910 - `alert`, `prompt` and `confirm` <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link &nearr;] </a>
+
+
 
 &emsp;
 
