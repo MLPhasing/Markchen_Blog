@@ -41,7 +41,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
 <br>
-<b>20200910 - Homework <a herf="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link >] </a></b>
+<b>20200910 - Homework <a href="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link >] </a></b>
 
 <br>
 <br>
