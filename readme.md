@@ -15,12 +15,11 @@ details[open]{
   border: 1px solid #F2F2F2;
   box-shadow: none;
   border-radius: 10px;
-  cursor: pointer;
+  cursor: default;
 }
-
-</style>
-<style>
-    button{width=40px; height=13px; background-color: #F5F5F5; border:none; box-shadow: 1px 1px 2px #bbbbbb;}
+button{
+    width=40px; height=13px; background-color: #F5F5F5; border:none; box-shadow: 1px 1px 2px #bbbbbb;
+}
 </style>
 
 ## About This Site
@@ -80,14 +79,13 @@ There's only 1 reference type - Object.
 In JS, there does NOT have the concept of `class` as in Java or Python. All the things enclosed by `{}` are objects, including function, etc.
 
 There are three functions that can interact with useds in the browser - `alert`, `prompt` and `confirm`
-
-
-`alert` will give out a small pop-out window on the top of browser to notify user with some information</li>
-
-`prompt` will return a String that is typed by the User. If user press "cancel", it will simplly return `null`. A default String can be setup for the pop-up window.</li>
-
-`confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".</li>
-
+<br/>
+`alert` will give out a small pop-out window on the top of browser to notify user with some information
+<br/>
+`prompt` will return a String that is typed by the User. If user press "cancel", it will simplly return `null`. A default String can be setup for the pop-up window.
+<br/>
+`confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".
+</p>
 
 </details>
 
