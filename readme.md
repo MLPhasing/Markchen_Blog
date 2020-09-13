@@ -1,4 +1,21 @@
 # Home Page
+
+<style>
+details > summary {
+  padding: 4px;
+  background-color: #F5F5F5;
+  border: none;
+  box-shadow: 2px 2px 4px #bbbbbb;
+  box-radius: 5px;
+  cursor: pointer;
+}
+
+
+</style>
+<style>
+    button{width=40px; height=13px; background-color: #F5F5F5;}
+</style>
+
 ## About This Site
 
 This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the site is in the Testing phase[^1] and here are the features in current plan:
@@ -42,9 +59,6 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <br>
 
 <body>
-<style>
-    button{width=40px; height=13px; background-color:F8F8FF;}
-</style>
 <button onclick='window.open("ComputerScience3_Homework/Homework01.html");'>
     Homework for Week 1
 </button>
@@ -60,14 +74,13 @@ In JS, there does NOT have the concept of `class` as in Java or Python. All the 
 
 There are three functions that can interact with useds in the browser - `alert`, `prompt` and `confirm`
 
-<ul>
-<li>`alert` will give out a small pop-out window on the top of browser to notify user with some information</li>
 
-<li>`prompt` will return a String that is typed by the User. If user press "cancel", it will simplly return `null`. A default String can be setup for the pop-up window.</li>
+`alert` will give out a small pop-out window on the top of browser to notify user with some information</li>
 
-<li>`confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".</li>
-</ul>
-</p>
+`prompt` will return a String that is typed by the User. If user press "cancel", it will simplly return `null`. A default String can be setup for the pop-up window.</li>
+
+`confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".</li>
+
 
 </details>
 
