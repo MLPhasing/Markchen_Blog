@@ -18,7 +18,18 @@ details[open]{
   cursor: default;
 }
 button{
-    width=40px; height=13px; background-color: #F5F5F5; border:none; box-shadow: 1px 1px 2px #bbbbbb;
+    width=40px;
+    height=20px;
+    background-color: #F5F5F5;
+    border:none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+}
+code{
+    background-color: #F5F5F5;
+    border: none;
+    box-shadow: 1px 1px 1px #F2F2F2;
+    background-radius:5px;
+    font: "jetbrains mono";
 }
 </style>
 
@@ -76,15 +87,15 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <p>
 There are 4 primitive types in JavaScript - Number, String, Boolean and Undefined.
 There's only 1 reference type - Object.
-In JS, there does NOT have the concept of `class` as in Java or Python. All the things enclosed by `{}` are objects, including function, etc.
+In JS, there does NOT have the concept of <code>class</code> as in Java or Python. All the things enclosed by <code>{}</code> are objects, including function, etc.
 
-There are three functions that can interact with useds in the browser - `alert`, `prompt` and `confirm`
+There are three functions that can interact with useds in the browser - <code>alert</code>, <code>prompt</code> and <code>confirm</code>
 <br/>
-`alert` will give out a small pop-out window on the top of browser to notify user with some information
+<code>alert</code> will give out a small pop-out window on the top of browser to notify user with some information
 <br/>
-`prompt` will return a String that is typed by the User. If user press "cancel", it will simplly return `null`. A default String can be setup for the pop-up window.
+<code>prompt</code> will return a String that is typed by the User. If user press "cancel", it will simplly return <code>null</code>. A default String can be setup for the pop-up window.
 <br/>
-`confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".
+<code>abcde</code> `confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".
 </p>
 
 </details>
