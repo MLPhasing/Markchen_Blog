@@ -34,9 +34,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ## Computer Science 3 Homework & Notes
 
-<center>
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=80>
-</center>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS_with_Edge.png" align="left" height=80>
 
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
