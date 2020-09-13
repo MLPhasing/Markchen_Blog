@@ -1,15 +1,22 @@
 # Home Page
 
 <style>
-details > summary {
+details{
   padding: 4px;
   background-color: #F5F5F5;
   border: none;
   box-shadow: 2px 2px 4px #bbbbbb;
-  box-radius: 5px;
   cursor: pointer;
 }
 
+details[open]{
+  padding: none;
+  background-color: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  box-shadow: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 </style>
 <style>
@@ -52,7 +59,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 ## Computer Science 3 Homework & Notes
 
 <center><img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=100></center>
-
+<br>
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
 
