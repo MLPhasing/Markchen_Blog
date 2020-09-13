@@ -38,8 +38,17 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
+
 <br>
-<b>20200910 - Homework <a href="https://markchenyutian.github.io/Markchen_Blog/ComputerScience3_Homework/Homework01.html"> [link >] </a></b>
+
+<body>
+<style>
+    button{width=40px; height=13px; background-color:F8F8FF;}
+</style>
+<button onclick='window.open("ComputerScience3_Homework/Homework01.html");'>
+    Homework for Week 1
+</button>
+</body>
 
 <br>
 <br>
@@ -64,14 +73,7 @@ There are three functions that can interact with useds in the browser - `alert`,
 
 <br>
 
-<body>
-<style>
-    button{width=40px; height=13px; background-color:F0FFFF;}
-</style>
-<button onclick='window.open("example.com");'>
-    Test the button
-</button>
-</body>
+
 &emsp;
 
 ----------
