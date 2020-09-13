@@ -13,7 +13,7 @@ details > summary {
 
 </style>
 <style>
-    button{width=40px; height=13px; background-color: #F5F5F5;}
+    button{width=40px; height=13px; background-color: #F5F5F5; border:none; box-shadow: 1px 1px 2px #bbbbbb;}
 </style>
 
 ## About This Site
