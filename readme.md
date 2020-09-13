@@ -14,7 +14,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 ### Neural Network and Machine Learning - *2019 Computer Science 2*
 
 <center>
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png" height=100>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png" height=80>
 </center>
 
 * 神经网络如何工作? [How Does Neural Network work](https://markchenyutian.github.io/Markchen_Blog/Articles/神经网络为什么work.html)
@@ -34,7 +34,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ## Computer Science 3 Homework & Notes
 
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS_with_Edge.png" align="left" height=80>
+<center><img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=100></center>
 
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
@@ -62,8 +62,16 @@ There are three functions that can interact with useds in the browser - `alert`,
 
 </details>
 
-&emsp;
+<br>
 
+<body>
+<style>
+    button{width=40px; height=13px; background-color:F0FFFF;}
+</style>
+<button onclick='window.open("example.com");'>
+    Test the button
+</button>
+</body>
 &emsp;
 
 ----------
