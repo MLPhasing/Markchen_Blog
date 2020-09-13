@@ -19,7 +19,7 @@ details[open]{
 }
 button{
     width=40px;
-    height=30px !important;
+    height=50px !important;
     background-color: #F5F5F5;
     border:none;
     box-shadow: 1px 1px 2px #bbbbbb;
