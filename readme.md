@@ -53,6 +53,10 @@ code{
 .container {
   padding: 2px 16px;
 }
+br{
+display:inline;
+line-height:10px;
+}
 </style>
 
 ## About This Site
