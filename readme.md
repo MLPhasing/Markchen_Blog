@@ -121,9 +121,21 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
   </div>
   <div class="container">
     <!--<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/CSP_1.png" align="left" height=100>-->
-    <p>约束满足问题(Constraint Satisfaction Problem, CSP)是一类在工程上非常常见的问题，问题由值域，变量和约束工程。求解约束满足问题指的是找到一组变量的赋值，使得网络中所有约束都被满足。在求解约束满足问题的研究中，弧一致性算法是重中之重，因为问题中的一切多元约束都可以被转化为若干个二元约束。这篇文章介绍了多种弧一致性算法，包括各种版本的时间复杂度，空间复杂度和特点</p>
+    <p>约束满足问题(Constraint Satisfaction Problem, CSP)是一类在工程上非常常见的问题，问题由值域，变量和约束构成。求解约束满足问题指的是找到一组变量的赋值，使得网络中所有约束都被满足。在求解约束满足问题的研究中，弧一致性算法是重中之重，因为问题中的一切多元约束都可以被转化为若干个二元约束。这篇文章介绍了多种弧一致性算法，包括各种版本的时间复杂度，空间复杂度和特点</p>
   </div>
 </div>
+<div style="width: 100%; height: 0.6em"></div>
+
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/Articles/U-Net-Convolutional-Network-知乎.html');">
+  <div class="title_container">
+    <h4>医学图像分割模型 U-net   |  Medical Image Segmentation Model U-net</h4>
+  </div>
+  <div class="container">
+    <!--<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/CSP_1.png" align="left" height=100>-->
+    <p>U-net是一种前馈神经网络模型，与传统卷积神经网络不同的是，Unet通过直接拼接相同分辨率的图像在网络中创造“短路”，从而使得梯度可以更好的在网络中传播。与此同时，通过将下卷积前的图像分割结果拼接到上卷积过程中的分割结果上，下卷积结果中的高分辨率细节也可以被传递到上卷积过程中，从而提高模型分割准确率。</p>
+  </div>
+</div>
+
 <br>
 
 ### Block Chain and Cryptocurrency - *2020 Computer Science 2*
@@ -145,7 +157,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <div style="width: 100%; height: 1em"></div>
 
 <body>
-<button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/main/2020/09/10/Homework01.html");'>
+<button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/10/Homework01.html");'>
     Homework for Week 1
 </button>
 </body>
