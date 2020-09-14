@@ -22,12 +22,14 @@ details[open]{
   cursor: default;
 }
 button{
+    padding: 15px 24px;
     transition: 0.2s;
     background-color: #F2FCFA;
     border:none;
     box-shadow: 2px 2px 4px #bbbbbb;
 }
 button:hover{
+    padding: 15px 24px;
     transition: 0.2s;
     background-color: #DDF6F3;
     border:none;
