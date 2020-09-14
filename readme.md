@@ -55,9 +55,9 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <img src="https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png" height=80>
 </center>
 
-* 神经网络如何工作? [How Does Neural Network work](https://markchenyutian.github.io/Markchen_Blog/main/2020/07/31/How-do-Neural-Network-Work.html)
-* 什么是贝叶斯网络? [What is Bayes Net](https://markchenyutian.github.io/Markchen_Blog/main/2020/04/30/What-is-Bayes-Network.html)
-* 长短期记忆递归神经网络(LSTM) [什么是LSTM，为什么需要LSTM](https://markchenyutian.github.io/Markchen_Blog/main/2020/04/03/What-is-LSTM.html)
+* 神经网络如何工作? [How Does Neural Network work](https://markchenyutian.github.io/Markchen_Blog/2020/07/31/How-do-Neural-Network-Work.html)
+* 什么是贝叶斯网络? [What is Bayes Net](https://markchenyutian.github.io/Markchen_Blog/2020/04/30/What-is-Bayes-Network.html)
+* 长短期记忆递归神经网络(LSTM) [什么是LSTM，为什么需要LSTM](https://markchenyutian.github.io/Markchen_Blog/2020/04/03/What-is-LSTM.html)
 * 约束满足问题的弧一致性算法 [Arc-consistency in Constraint Satisfaction Problem (CSP)](https://markchenyutian.github.io/Markchen_Blog/Articles/Constraint_Satisfaction_Problem_ZhiHu.html)
 
 ### Block Chain and Cryptocurrency - *2020 Computer Science 2*
