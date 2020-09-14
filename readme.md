@@ -41,7 +41,7 @@ code{
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -52,10 +52,6 @@ code{
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
-}
-br{
-display:inline;
-line-height:5px;
 }
 </style>
 
@@ -77,11 +73,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <img src="https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png" height=80>
 </center>
 
-* 神经网络如何工作? [How Does Neural Network work](https://markchenyutian.github.io/Markchen_Blog/2020/07/31/How-do-Neural-Network-Work.html)
-* 什么是贝叶斯网络? [What is Bayes Net](https://markchenyutian.github.io/Markchen_Blog/2020/04/30/What-is-Bayes-Network.html)
-* 长短期记忆递归神经网络(LSTM) [什么是LSTM，为什么需要LSTM](https://markchenyutian.github.io/Markchen_Blog/2020/04/03/What-is-LSTM.html)
-* 约束满足问题的弧一致性算法 [Arc-consistency in Constraint Satisfaction Problem (CSP)](https://markchenyutian.github.io/Markchen_Blog/Articles/Constraint_Satisfaction_Problem_ZhiHu.html)
-
+*点击卡片阅读全文*
 
 <div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/07/31/How-do-Neural-Network-Work.html');">
   <div class="container">
@@ -97,10 +89,17 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
   </div>
 </div>
 <br>
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/04/30/What-is-Bayes-Network.html');">
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/04/03/What-is-LSTM.html');">
   <div class="container">
     <h4>长短期记忆递归网络   |  Long-Short Term Memory (LSTM) Network</h4>
     <p>一般的神经网络只能处理单个信息，可是有的时候神经网络的输入是一个时间序列，在这种情况下普通的前馈神经网络就不能利用“上下文”中隐含的信息来更好的处理当前输入。为了解决这个问题，人们提出了递归神经网络(Recurrent Neural Network, RNN)。可是递归神经网络也有问题：由于同样的权重在网络中一直被累乘，在反向传播的时候极容易出现梯度消失与梯度爆炸的问题。同时，由于RNN在状态间传递的信息过少，RNN在上下文距离较远的时候会很快的遗忘前文信息。为了解决这些问题，人们提出了LSTM这个新的网络模型，它可以很好的处理以上这些问题。</p>
+  </div>
+</div>
+<br>
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/Articles/Constraint_Satisfaction_Problem_ZhiHu.html');">
+  <div class="container">
+    <h4>约束满足问题中的弧一致性算法   |  Arc-consistency in Constraint Satisfaction Problem (CSP)</h4>
+    <p>约束满足问题(Constraint Satisfaction Problem, CSP)是一类在工程上非常常见的问题，问题由值域，变量和约束工程。求解约束满足问题指的是找到一组变量的赋值，使得网络中所有约束都被满足。在求解约束满足问题的研究中，弧一致性算法是重中之重，因为问题中的一切多元约束都可以被转化为若干个二元约束。这篇文章介绍了多种弧一致性算法，包括各种版本的时间复杂度，空间复杂度，和特点</p>
   </div>
 </div>
 
