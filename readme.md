@@ -55,7 +55,7 @@ code{
 }
 br{
 display:inline;
-line-height:10px;
+line-height:5px;
 }
 </style>
 
