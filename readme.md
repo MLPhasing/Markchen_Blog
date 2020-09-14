@@ -143,21 +143,16 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 ## Computer Science 3 Homework & Notes
 
 <center><img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=100></center>
-<br>
+<div style="width: 100%; height: 1em"></div>
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
-
-<br>
-
+<div style="width: 100%; height: 1em"></div>
 <body>
-<button onclick='window.open("ComputerScience3_Homework/Homework01.html");'>
+<button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/10/Homework01.html");'>
     Homework for Week 1
 </button>
 </body>
-
-<br>
-<br>
-
+<div style="width: 100%; height: 1em"></div>
 <p>
 There are 4 primitive types in JavaScript - Number, String, Boolean and Undefined.
 There's only 1 reference type - Object.
