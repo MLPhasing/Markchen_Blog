@@ -55,9 +55,9 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <img src="https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png" height=80>
 </center>
 
-* 神经网络如何工作? [How Does Neural Network work](hhttps://markchenyutian.github.io/Markchen_Blog/main/2020/02/01/How-do-Neural-Network-Work.html)
-* 什么是贝叶斯网络? [What is Bayes Net](https://markchenyutian.github.io/Markchen_Blog/Articles/什么是贝叶斯网络.html)
-* 长短期记忆递归神经网络(LSTM) [什么是LSTM，为什么需要LSTM](https://markchenyutian.github.io/Markchen_Blog/Articles/长短期记忆递归神经网络LSTM.html)
+* 神经网络如何工作? [How Does Neural Network work](https://markchenyutian.github.io/Markchen_Blog/main/2020/07/31/How-do-Neural-Network-Work.html)
+* 什么是贝叶斯网络? [What is Bayes Net](https://markchenyutian.github.io/Markchen_Blog/main/2020/04/30/What-is-Bayes-Network.html)
+* 长短期记忆递归神经网络(LSTM) [什么是LSTM，为什么需要LSTM](https://markchenyutian.github.io/Markchen_Blog/main/2020/04/03/What-is-LSTM.html)
 * 约束满足问题的弧一致性算法 [Arc-consistency in Constraint Satisfaction Problem (CSP)](https://markchenyutian.github.io/Markchen_Blog/Articles/Constraint_Satisfaction_Problem_ZhiHu.html)
 
 ### Block Chain and Cryptocurrency - *2020 Computer Science 2*
@@ -110,7 +110,7 @@ There are three functions that can interact with useds in the browser - <code>al
 &emsp;
 
 <div id="home">
-  <h1>All Posts</h1>
+  <h2>All Posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
