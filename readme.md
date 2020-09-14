@@ -86,6 +86,13 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
   </div>
 </div>
 
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/04/30/What-is-Bayes-Network.html');">
+  <div class="container">
+    <h4>什么是贝叶斯网络   |  What is Bayes Network</h4>
+    <p>贝叶斯网络是人们在探索机器学习时的一个重要里程碑，通过贝叶斯网络，机器学习摆脱了以往基于形式逻辑推理和庞大知识库的限制，开始了“统计学习”的新纪元。那么什么是贝叶斯网络呢？贝叶斯网络和贝叶斯统计学派又有什么关系呢？</p>
+  </div>
+</div>
+
 
 
 <br>
