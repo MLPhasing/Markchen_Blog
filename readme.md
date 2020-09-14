@@ -11,6 +11,7 @@ details{
   border: none;
   box-shadow: 2px 2px 4px #bbbbbb;
   cursor: pointer;
+  outline: none;
 }
 
 details[open]{
