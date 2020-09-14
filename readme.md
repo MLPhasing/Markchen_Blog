@@ -71,7 +71,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 ### Neural Network and Machine Learning - *2019 Computer Science 2*
 
 <center>
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/PyTorch.png" height=80>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/CS2Banner.png" height=80>
 </center>
 
 *点击卡片阅读全文*
