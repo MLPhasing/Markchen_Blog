@@ -52,7 +52,7 @@ button:hover{
 
 /* Add some padding inside the card container */
 .container {
-  padding: 2px 16px;
+  padding: 2px 16px 20px;
   font-size: 80%;
 }
 
@@ -126,7 +126,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 </div>
 <div style="width: 100%; height: 0.6em"></div>
 
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/Articles/U-Net-Convolutional-Network-知乎.html');">
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/Articles/U-Net-Convolutional-Network-知乎_files.html');">
   <div class="title_container">
     <h4>医学图像分割模型 U-net   |  Medical Image Segmentation Model U-net</h4>
   </div>
