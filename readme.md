@@ -1,5 +1,7 @@
 ---
-
+layout: default
+permalink: index.html
+title: Mark Chen's Blog
 ---
 # Home Page
 
