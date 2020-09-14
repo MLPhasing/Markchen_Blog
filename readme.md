@@ -27,6 +27,7 @@ button{
     background-color: #F2FCFA;
     border:none;
     box-shadow: 2px 2px 4px #bbbbbb;
+    border-radius: 5px;
 }
 button:hover{
     padding: 15px 24px;
@@ -34,14 +35,7 @@ button:hover{
     background-color: #DDF6F3;
     border:none;
     box-shadow: 1px 1px 2px #bbbbbb;
-}
-button[focus]{outline:none;}
-code{
-    background-color: #F5F5F5;
-    border: none;
-    box-shadow: 1px 1px 1px #F2F2F2;
-    background-radius:5px;
-    font: "jetbrains mono";
+    border-radius: 5px;
 }
 .card {
   /* Add shadows to create the "card" effect */
@@ -149,23 +143,25 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <details>
 <summary>Week 1 - Variable and Basic functions</summary>
 <div style="width: 100%; height: 1em"></div>
+
 <body>
 <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/main/2020/09/10/Homework01.html");'>
     Homework for Week 1
 </button>
 </body>
+
 <div style="width: 100%; height: 1em"></div>
 <p>
-There are 4 primitive types in JavaScript - Number, String, Boolean and Undefined.
+There are 6 primitive types in JavaScript - <code>Number, String, Boolean, Undefined, Symbol and bigint</code>.
 There's only 1 reference type - Object.
-In JS, there does NOT have the concept of <code>class</code> as in Java or Python. All the things enclosed by <code>{}</code> are objects, including function, etc.
+All the things enclosed by <code>{}</code> are objects, including function, etc.
 
-There are three functions that can interact with useds in the browser - <code>alert</code>, <code>prompt</code> and <code>confirm</code>
-<br/>
+There are three functions that can interact with users in browser - <code>alert</code>, <code>prompt</code> and <code>confirm</code>
+<div style="width: 100%; height: 0.5em"></div>
 <code>alert</code> will give out a small pop-out window on the top of browser to notify user with some information
-<br/>
+<div style="width: 100%; height: 0.5em"></div>
 <code>prompt</code> will return a String that is typed by the User. If user press "cancel", it will simplly return <code>null</code>. A default String can be setup for the pop-up window.
-<br/>
+<div style="width: 100%; height: 0.5em"></div>
 <code>confirm</code> will return a Boolean, if user press "ok", return true, otherwise, return "false".
 </p>
 
