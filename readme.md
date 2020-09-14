@@ -152,7 +152,7 @@ There are three functions that can interact with useds in the browser - <code>al
 <br/>
 <code>prompt</code> will return a String that is typed by the User. If user press "cancel", it will simplly return <code>null</code>. A default String can be setup for the pop-up window.
 <br/>
-<code>abcde</code> `confirm` will return a Boolean, if user press "ok", return true, otherwise, return "false".
+<code>confirm</code> will return a Boolean, if user press "ok", return true, otherwise, return "false".
 </p>
 
 </details>
