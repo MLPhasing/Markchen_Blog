@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: index.html
-title: Mark Chen's Blog
 ---
-# Home Page
+# Mark Chen's Blog
 
 <style>
 details{
