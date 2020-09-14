@@ -2,8 +2,6 @@
 layout: post
 permalink: index.html
 ---
-# Mark Chen's Blog
-
 <style>
 details{
   padding: 4px;
@@ -13,6 +11,8 @@ details{
   cursor: pointer;
   outline: none;
 }
+
+details[focus]{outline: none;}
 
 details[open]{
   padding: none;
@@ -29,6 +29,7 @@ button{
     border:none;
     box-shadow: 1px 1px 2px #bbbbbb;
 }
+button[focus]{outline:none;}
 code{
     background-color: #F5F5F5;
     border: none;
