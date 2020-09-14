@@ -109,6 +109,15 @@ There are three functions that can interact with useds in the browser - <code>al
 
 &emsp;
 
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
 ----------
 
 [^1]: So some hyperlink may not function properly or the website will be quite ugly
