@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 permalink: index.html
 title: Mark Chen's Blog
 ---
@@ -25,7 +25,7 @@ details[open]{
 button{
     width=40px;
     height=50px !important;
-    background-color: #F5F5F5;
+    background-color: #C9F1E1;
     border:none;
     box-shadow: 1px 1px 2px #bbbbbb;
 }
