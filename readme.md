@@ -148,7 +148,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <summary>Week 1 - Variable and Basic functions</summary>
 <div style="width: 100%; height: 1em"></div>
 <body>
-<button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/10/Homework01.html");'>
+<button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/main/2020/09/10/Homework01.html");'>
     Homework for Week 1
 </button>
 </body>
