@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "神经网络是如何工作的"
-permalink: test.html
 ---
 # 神经网络是如何工作的?
 
