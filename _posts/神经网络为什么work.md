@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: Articles/神经网络为什么work.html
+permalink: A.html
 ---
 # 神经网络是如何工作的?
 
