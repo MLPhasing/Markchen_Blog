@@ -1,5 +1,7 @@
 
-
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 # LSTM - 过去，现在，和未来
 
 **0. 什么是LSTM**

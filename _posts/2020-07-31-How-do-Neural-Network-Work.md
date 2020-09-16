@@ -2,6 +2,9 @@
 layout: post
 title: "神经网络是如何工作的"
 ---
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 # 神经网络是如何工作的?
 
 > By Mark Chen, 29299731
