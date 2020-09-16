@@ -61,11 +61,8 @@ title: this title will be recognized by jekyll
 
 虽然jekyll会将markdown文件渲染成html文件，但是jekyll默认中并不会处理markdown里的数学公式。
 
-为了让渲染出来的网页出现数学公式，我们要做两件事：
-
-1. 在根目录中的 `_config.yml` 文件中添加 `markdown: krmarkdown`这一行
-2. 在需要数学公式的网页(markdown 文件)头上（ymal 下面， markdown 正文上面）加上以下代码：
-   ```
+为了让渲染出来的网页出现数学公式，我们要在需要数学公式的网页(markdown 文件)头上（ymal 下面， markdown 正文上面）加上以下代码：
+```
    <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
@@ -78,20 +75,21 @@ title: this title will be recognized by jekyll
         });
     </script>
     </head>
-    ```
+```
+
 
 ### Step 8 | 用代码自动更新所有博客文章列表
 
 使用以下代码，可以自动更新博客_posts文件夹中所有页面的列表
 ```
-<div id="home">
-  <h2>All Posts</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.*title* }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+    <div id="home">
+    <h2>All Posts</h2>
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.*title* }}</a></li>
+        {% endfor %}
+    </ul>
+    </div>
 ```
 
 ### Step 9 | 在 markdown 中使用 html 和 `<style>`
