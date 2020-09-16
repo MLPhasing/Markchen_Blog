@@ -59,7 +59,6 @@ button:hover{
 .title_container{
   padding: 2px 16px;
 }
-
 </style>
 
 ## About This Site
