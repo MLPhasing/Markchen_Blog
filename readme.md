@@ -179,17 +179,15 @@ There are three functions that can interact with users in browser - <code>alert<
 <div style="width: 100%; height: 1em"></div>
 
 <details>
-  <summary>Week 2 - If and else</summary>
-  <code>if{...}else{...}</code> can provide a branch in the code based on the expression's boolean value. In javascript, the specific grammer is.
-  <div style="width: 100%; height: 0.6em"></div>
-  <code>
-    if (condition1){...} &emsp;&emsp;&emsp;&emsp;&emsp;   <--- exec when cond1 is true<br>
-    else if (condition2) {...}  <--- exec when cond1 is false and cond2 is true<br>
-    else{...} &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;<--- exec otherwise
-  </code>
-  <br>
-  In Javascript, we can use <code>&&</code>, <code>||</code> to calculate logical and, logical or.
-
+  <summary>Week 2 - If, else, array, and function</summary>
+  <div style="width: 100%; height: 1em"></div>
+  <button>
+    Homework for Week 2
+  </button>
+  &emsp;
+  <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/16/Javascript-notes-week2.html");'>
+    JavaScript Week 2 Note
+  </button>
 </details>
 
 &emsp;
