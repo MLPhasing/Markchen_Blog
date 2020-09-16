@@ -1,4 +1,3 @@
-# JavaScript Notes Week 2
 
 ---
 
