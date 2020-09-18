@@ -115,22 +115,26 @@ function foo(param_1, param_2){
 
 ### Comparison Operator in JavaScript
 
+<div class="datatable-end"></div>
 |Sign|Meaning|Example|
 |-------|-------|-------|
 |`==`|return True if the value are equal (even if variables have different type)|`1=='1' -> true`|
 |`===`|return True if the value are equal and **type are equal**|`1==='1' -> false`|
 |`!=`|return True if `==` return False|...|
 |`>`, `<`, `>=`, `<=`|the meaning of these operators should be obvious|...|
+<div class="datatable-end"></div>
 
 <br>
 
 ### Logical Operators
 
-|Sign|Meaning|Example|
-|-------|-------|-------|
-|`&&`| *Logical And*, return True if `expr1` and `expr2` both return True |...|
-|`||`| *Logical Or*, return True if either `expr1` or `expr2` is True|...|
-|`!`| *Logical Not*, if ture, return false|...|
+<div class="datatable-begin"></div>
+Sign|Meaning|Example
+-------|-------|-------
+`&&`| *Logical And*, return True if `expr1` and `expr2` both return True |...
+`||`| *Logical Or*, return True if either `expr1` or `expr2` is True|...
+`!`| *Logical Not*, if ture, return false|...
+<div class="datatable-end"></div>
 
 <br>
 
