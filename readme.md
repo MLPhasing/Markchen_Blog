@@ -191,7 +191,7 @@ There are three functions that can interact with users in browser - <code>alert<
 <details>
   <summary>Week 2 - If, else, array, and function</summary>
   <div style="width: 100%; height: 1em"></div>
-  <button>
+  <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/16/Javascript-notes-week2.html");'>
     Homework for Week 2
   </button>
   &emsp;
