@@ -92,7 +92,7 @@ function foo(param_1, param_2){
 ## Operators in JavaScript
 ### Arithmetic Operators in JavaScript
 |Sign|Meaning|Example|
-|:-:|:-:|:-:|
+|-----|-----|-----|
 |`/`|Divide|`2/4=0.5`|
 |`%`|Modular|`5%2=1`|
 |`**`|Power|`2**3=8`|
@@ -101,7 +101,7 @@ function foo(param_1, param_2){
 
 ### Assign Operator in JavaScript
 |Sign|Meaning|Example|
-|:-:|:-:|:-:|
+|-----|-----|-----|
 |`=`|Assign Value to the variable directly||
 |`+=`|Add the given value on the variable directly|`let a=1; a += 1;`|
 |`-=`|Subtract the given value on the variable directly||
@@ -113,7 +113,7 @@ function foo(param_1, param_2){
 
 ### Comparison Operator in JavaScript
 |Sign|Meaning|Example|
-|:-:|:-:|:-:|
+|-----|-----|-----|
 |`==`|return True if the value are equal (even if variables have different type)|`1=='1' -> true`|
 |`===`|return True if the value are equal and **type are equal**|`1==='1' -> false`|
 |`!=`|return True if `==` return False||
@@ -123,7 +123,7 @@ function foo(param_1, param_2){
 
 ### Logical Operators
 |Sign|Meaning|Example|
-|:-:|:-:|:-:|
+|-----|-----|-----|
 |`&&`| *Logical And*, return True if `expr1` and `expr2` both return True | |
 |`||`| *Logical Or*, return True if either `expr1` or `expr2` is True||
 |`!`| *Logical Not*, if ture, return false||
@@ -141,3 +141,11 @@ let var = expr ? value1 : value2;
 // if expr == false, var=value2;
 ```
 The logical operation in JavaScript can be "chained up". When the program is evaluating the expression, it will evaluate from left to right (there does not have a specific calculation order for different operator).
+
+## Math in JavaScript
+```javascript
+> Math.random()
+0.9108649588393491
+> Math.random()
+0.1597932971246665
+```
