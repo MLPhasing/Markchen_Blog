@@ -129,11 +129,13 @@ function foo(param_1, param_2){
 ### Logical Operators
 
 <div class="datatable-begin"></div>
-Sign|Meaning|Example
--------|-------|-------
+
+Sign|Meaning                                                             |Example
+----|--------------------------------------------------------------------|-------
 `&&`| *Logical And*, return True if `expr1` and `expr2` both return True |...
-`||`| *Logical Or*, return True if either `expr1` or `expr2` is True|...
-`!`| *Logical Not*, if ture, return false|...
+`||`| *Logical Or*, return True if either `expr1` or `expr2` is True     |...
+`!` | *Logical Not*, if ture, return false                               |...
+
 <div class="datatable-end"></div>
 
 <br>
