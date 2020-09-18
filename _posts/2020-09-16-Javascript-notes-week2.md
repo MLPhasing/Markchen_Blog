@@ -91,6 +91,7 @@ function foo(param_1, param_2){
 
 ## Operators in JavaScript
 ### Arithmetic Operators in JavaScript
+
 |Sign|Meaning|Example|
 |-------|-------|-------|
 |`/`|Divide|`2/4=0.5`|
@@ -100,6 +101,7 @@ function foo(param_1, param_2){
 <br>
 
 ### Assign Operator in JavaScript
+
 |Sign|Meaning|Example|
 |-------|-------|-------|
 |`=`|Assign Value to the variable directly|...|
@@ -112,6 +114,7 @@ function foo(param_1, param_2){
 <br>
 
 ### Comparison Operator in JavaScript
+
 |Sign|Meaning|Example|
 |-------|-------|-------|
 |`==`|return True if the value are equal (even if variables have different type)|`1=='1' -> true`|
@@ -122,6 +125,7 @@ function foo(param_1, param_2){
 <br>
 
 ### Logical Operators
+
 |Sign|Meaning|Example|
 |-------|-------|-------|
 |`&&`| *Logical And*, return True if `expr1` and `expr2` both return True |...|
