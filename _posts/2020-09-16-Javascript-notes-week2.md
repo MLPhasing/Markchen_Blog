@@ -92,7 +92,7 @@ function foo(param_1, param_2){
 ## Operators in JavaScript
 ### Arithmetic Operators in JavaScript
 |Sign|Meaning|Example|
-|-----|-----|-----|
+|-------|-------|-------|
 |`/`|Divide|`2/4=0.5`|
 |`%`|Modular|`5%2=1`|
 |`**`|Power|`2**3=8`|
@@ -101,32 +101,32 @@ function foo(param_1, param_2){
 
 ### Assign Operator in JavaScript
 |Sign|Meaning|Example|
-|-----|-----|-----|
-|`=`|Assign Value to the variable directly||
+|-------|-------|-------|
+|`=`|Assign Value to the variable directly|...|
 |`+=`|Add the given value on the variable directly|`let a=1; a += 1;`|
-|`-=`|Subtract the given value on the variable directly||
+|`-=`|Subtract the given value on the variable directly|...|
 |...|Each arithmetic operator has corresponding assign operator|...|
-|`++a`|The program will **First Add 1 to variable**, then return its value||
-|`a++`|The program will **First return its value**, then add 1 to it||
+|`++a`|The program will **First Add 1 to variable**, then return its value|...|
+|`a++`|The program will **First return its value**, then add 1 to it|...|
 
 <br>
 
 ### Comparison Operator in JavaScript
 |Sign|Meaning|Example|
-|-----|-----|-----|
+|-------|-------|-------|
 |`==`|return True if the value are equal (even if variables have different type)|`1=='1' -> true`|
 |`===`|return True if the value are equal and **type are equal**|`1==='1' -> false`|
-|`!=`|return True if `==` return False||
-|`>`, `<`, `>=`, `<=`|the meaning of these operators should be obvious||
+|`!=`|return True if `==` return False|...|
+|`>`, `<`, `>=`, `<=`|the meaning of these operators should be obvious|...|
 
 <br>
 
 ### Logical Operators
 |Sign|Meaning|Example|
-|-----|-----|-----|
-|`&&`| *Logical And*, return True if `expr1` and `expr2` both return True | |
-|`||`| *Logical Or*, return True if either `expr1` or `expr2` is True||
-|`!`| *Logical Not*, if ture, return false||
+|-------|-------|-------|
+|`&&`| *Logical And*, return True if `expr1` and `expr2` both return True |...|
+|`||`| *Logical Or*, return True if either `expr1` or `expr2` is True|...|
+|`!`| *Logical Not*, if ture, return false|...|
 
 <br>
 
