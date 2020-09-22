@@ -1,3 +1,8 @@
+---
+layout: default
+title: Javascript Notes Week 2
+---
+
 
 ---
 
