@@ -224,12 +224,13 @@ There are three functions that can interact with users in browser - <code>alert<
 <div id="home">
   <h2>All Posts</h2>
     {% for post in site.posts %}
-      <div class="card">
+      <div class="last_card">
       <div class="last_container">
       <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
       </a>
       </div>
       </div>
+      <div style="width: 100%; height: 0.4em"></div>
     {% endfor %}
 </div>
 
