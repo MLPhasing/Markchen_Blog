@@ -204,11 +204,9 @@ There are three functions that can interact with users in browser - <code>alert<
 
 <div id="home">
   <h2>All Posts</h2>
-  <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <div class="card"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
     {% endfor %}
-  </ul>
 </div>
 
 ----------
