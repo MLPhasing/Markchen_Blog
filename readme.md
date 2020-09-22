@@ -59,6 +59,25 @@ button:hover{
 .title_container{
   padding: 2px 16px;
 }
+
+.last_card {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+/* On mouse-over, add a deeper shadow */
+.last_card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.last_container {
+  padding: 4px 4px 4px;
+  font-size: 80%;
+}
+
 </style>
 
 ## About This Site
@@ -205,7 +224,12 @@ There are three functions that can interact with users in browser - <code>alert<
 <div id="home">
   <h2>All Posts</h2>
     {% for post in site.posts %}
-      <div class="card"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+      <div class="card">
+      <div class="last_container">
+      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+      </a>
+      </div>
+      </div>
     {% endfor %}
 </div>
 
