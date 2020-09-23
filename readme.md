@@ -235,7 +235,7 @@ There are three functions that can interact with users in browser - <code>alert<
     {% for post in site.posts %}
       <div class="last_card">
       <div class="last_container">
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+      <span>{{ post.date | date_to_string }}</span> > <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
       </a>
       </div>
       </div>
