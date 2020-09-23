@@ -134,7 +134,7 @@ There are three functions that can interact with users in browser - <code>alert<
 <div style="width: 100%; height: 1em"></div>
 
 <div class="content_block">
-  <summary>Week 2 - If, else, array, and function</summary>
+  <h4>Week 2 - If, else, array, and function</h4>
   <div style="width: 100%; height: 1em"></div>
   <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/18/Homework02.html");'>
     Homework for Week 2
