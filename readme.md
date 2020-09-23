@@ -2,83 +2,9 @@
 layout: post
 permalink: index.html
 ---
-<style>
-details{
-  padding: 4px;
-  background-color: #FFFFFF;
-  border: none;
-  box-shadow: 2px 2px 4px #bbbbbb;
-  cursor: pointer;
-  outline: none;
-  border-radius: 10px;
-}
-
-details[open]{
-  padding: none;
-  background-color: #FFFFFF;
-  border: 1px solid #F2F2F2;
-  box-shadow: none;
-  border-radius: 10px;
-  cursor: default;
-}
-button{
-    padding: 15px 24px;
-    transition: 0.2s;
-    background-color: #F2FCFA;
-    border:none;
-    box-shadow: 2px 2px 4px #bbbbbb;
-    border-radius: 5px;
-}
-button:hover{
-    padding: 15px 24px;
-    transition: 0.2s;
-    background-color: #DDF6F3;
-    border:none;
-    box-shadow: 1px 1px 2px #bbbbbb;
-    border-radius: 5px;
-}
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius:10px;
-  cursor:pointer;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px 20px;
-  font-size: 80%;
-}
-
-.title_container{
-  padding: 2px 16px;
-}
-
-.last_card {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius:5px;
-  cursor:pointer;
-}
-
-/* On mouse-over, add a deeper shadow */
-.last_card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-
-.last_container {
-  padding: 4px 4px 4px;
-  font-size: 80%;
-}
-
-</style>
+<head>
+<link rel="stylesheet" type="text/css" href="Asset/css/Unified_Style.css">
+</head>
 
 ## About This Site
 
@@ -182,8 +108,8 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <center><img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=100></center>
 <div style="width: 100%; height: 1em"></div>
 
-<details>
-<summary>Week 1 - Variable and Basic functions</summary>
+<div class="content_block">
+<h4>Week 1 - Variable and Basic functions</h4>
 <div style="width: 100%; height: 1em"></div>
 <body>
 <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/10/Homework01.html");'>
@@ -203,11 +129,11 @@ There are three functions that can interact with users in browser - <code>alert<
 <div style="width: 100%; height: 0.5em"></div>
 <code>confirm</code> will return a Boolean, if user press "ok", return true, otherwise, return "false".
 </p>
-</details>
+</div>
 
 <div style="width: 100%; height: 1em"></div>
 
-<details>
+<div class="content_block">
   <summary>Week 2 - If, else, array, and function</summary>
   <div style="width: 100%; height: 1em"></div>
   <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/18/Homework02.html");'>
@@ -217,17 +143,17 @@ There are three functions that can interact with users in browser - <code>alert<
   <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/16/Javascript-notes-week2.html");'>
     JavaScript Week 2 Note
   </button>
-</details>
+</div>
 
 <div style="width: 100%; height: 1em"></div>
 
-<details>
-<summary>Week 3 - Loop in Javascript</summary>
+<div class="content_block">
+<h4>Week 3 - Loop in Javascript</h4>
   <div style="width: 100%; height: 1em"></div>
   <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/22/Javascript-notes-week3.html");'>
     Javascript Week 3 Note
   </button>
-</details>
+</div>
 
 &emsp;
 

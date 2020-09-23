@@ -52,3 +52,8 @@ do{
 }
 while(condition);
 ```
+
+<br>
+
+### `for of` Loop
+
