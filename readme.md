@@ -219,6 +219,15 @@ There are three functions that can interact with users in browser - <code>alert<
   </button>
 </details>
 
+
+<details>
+<summary>Week 3 - Loop in Javascript</summary>
+  <div style="width: 100%; height: 1em"></div>
+  <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/22/Javascript-notes-week3.html");'>
+    Javascript Week 3 Note
+  </button>
+</details>
+
 &emsp;
 
 <div id="home">
