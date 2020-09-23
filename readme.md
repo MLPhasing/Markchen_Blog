@@ -219,6 +219,7 @@ There are three functions that can interact with users in browser - <code>alert<
   </button>
 </details>
 
+<div style="width: 100%; height: 1em"></div>
 
 <details>
 <summary>Week 3 - Loop in Javascript</summary>
