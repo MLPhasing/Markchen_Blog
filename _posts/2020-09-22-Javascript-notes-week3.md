@@ -56,4 +56,20 @@ while(condition);
 <br>
 
 ### `for of` Loop
+This loop is usually used to travel through the array.
+```javascript
+let arr = [1, 2, 3, 4, 5];
+for (const element in arr){
+    console.log(element);
+}
+```
 
+Expect Output:
+
+```
+1
+2
+3
+4
+5
+```
