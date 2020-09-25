@@ -108,6 +108,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <center><img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=100></center>
 <div style="width: 100%; height: 1em"></div>
 
+<!--The 'content_block' calss is the area for each week of Javascript-->
 <div class="content_block">
 <h4>Week 1 - Variable and Basic functions</h4>
 <div style="width: 100%; height: 1em"></div>
@@ -135,7 +136,7 @@ There are three functions that can interact with users in browser - <code>alert<
 
 <div class="content_block">
   <h4>Week 2 - If, else, array, and function</h4>
-  <div style="width: 100%; height: 1em"></div>
+  <div style="width: 100%; height: 0.5em"></div>
   <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/18/Homework02.html");'>
     Homework for Week 2
   </button>
@@ -149,7 +150,7 @@ There are three functions that can interact with users in browser - <code>alert<
 
 <div class="content_block">
 <h4>Week 3 - Loop in Javascript</h4>
-  <div style="width: 100%; height: 1em"></div>
+  <div style="width: 100%; height: 0.5em"></div>
   <button>
     Homework for Week 3
   </button>
