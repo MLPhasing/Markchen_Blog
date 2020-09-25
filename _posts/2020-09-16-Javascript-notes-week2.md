@@ -20,6 +20,24 @@ else{
 }
 ```
 
+## switch in JavaScript
+
+```Javascript
+switch(expression){
+    case value_1:
+        //do something
+        break;
+    case value_2:
+        //do other things
+        break;
+    case default:
+        //do remaining things
+
+}
+```
+
+
+
 ## Array
 
 We can put anything as the index of array. Since the `array` is in fact an Object, when we are adding one term of `1.1` as index in `array`, we are in fact adding attributes to `array`.

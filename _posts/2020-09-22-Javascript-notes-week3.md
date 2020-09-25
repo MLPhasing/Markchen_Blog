@@ -36,10 +36,11 @@ Command|Runtime
 <br>
 
 ```javascript
-for (i=0; i < 10; i ++){
+for (let i=0; i < 10; i ++){
     //do something
 } 
 ```
+When we doesn't add `let` before the declaration of variable `i` in for loop, the variable will be leaked. (If `let` is not added, the `var` will be added as default and the variable `i` will be seen as *global variable*)
 
 
 <br>
