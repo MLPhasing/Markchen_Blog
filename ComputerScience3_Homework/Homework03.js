@@ -64,8 +64,9 @@ function drawSpade(sideLength, literal){
 }
 
 function main(){
+    let usrInput = "";
     while (true){
-        let usrInput = prompt("Please choose the shape you want to print: \nSquare - 1   |   Spade - 2   |   Rt Triangle - 3   |");
+        usrInput = prompt("Please choose the shape you want to print: \nSquare - 1   |   Spade - 2   |   Rt Triangle - 3   |");
         if (usrInput * 1 == 1 || usrInput * 1 == 2 || usrInput * 1 == 3){break;}
         else{alert("Invalid Input, please try again.");}
     }
