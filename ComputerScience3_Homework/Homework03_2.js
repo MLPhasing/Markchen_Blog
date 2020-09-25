@@ -64,13 +64,16 @@ function drawSpade(sideLength, literal){
 }
 
 function main(){
-    let usrInput = "";
     while (true){
-        usrInput = prompt("Please choose the shape you want to print: \nSquare - 1   |   Spade - 2   |   Rt Triangle - 3   |");
+        var usrInput = prompt("Please choose the shape you want to print: \nSquare - 1   |   Spade - 2   |   Rt Triangle - 3   |");
         if (usrInput * 1 == 1 || usrInput * 1 == 2 || usrInput * 1 == 3){break;}
         else{alert("Invalid Input, please try again.");}
     }
-    let sideLength = prompt("Please put the sidelength of shape here.") * 1;
+    while (true){
+        var sideLength = prompt("Please put the sidelength of shape here.") * 1;
+        if (sideLength * 1 != NaN && sideLength * 1 > 0){break;}
+        else{alert("Invalid Input, please try again.");}
+    }
     let literal = prompt("Please put the character you want to use to print here.")[0];
     usrInput *= 1;
     let resultStr = "";
