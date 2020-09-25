@@ -7,8 +7,8 @@ function repeatStringConstructor(number, literal){
 }
 
 function linePrinter(numSpaceBefore, literalNum, numSpaceAfter, literal){
-    let spaceBefore = repeatStringConstructor(numSpaceBefore, "-");
-    let spaceAfter  = repeatStringConstructor(numSpaceAfter, "-");
+    let spaceBefore = repeatStringConstructor(numSpaceBefore, " ");
+    let spaceAfter  = repeatStringConstructor(numSpaceAfter, " ");
     let lineMiddle  = repeatStringConstructor(literalNum, literal);
 
     return spaceBefore + lineMiddle + spaceAfter;
