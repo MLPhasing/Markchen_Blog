@@ -21,6 +21,7 @@ function drawSquare(sideLength, literal){
         squareString += "\n";
     }
     // console.log(squareString);
+    // alert(squareString);
     return squareString
 }
 
