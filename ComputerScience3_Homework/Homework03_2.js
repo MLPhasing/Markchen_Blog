@@ -47,7 +47,7 @@ function drawSpade(sideLength, literal){
     }
     spaceBeforeLine = (sideLength - middleLength)/2;
     while (middleLength <= sideLength){
-        spadeString += linePrinter(spaceBeforeLine, middleLength, spaceBeforeLine, literal);
+        spadeString += linePrinter(spaceBeforeLine, middleLength, spaceBeforeLine, literal+" ");
         spadeString += '\n'
         middleLength += 2;
         spaceBeforeLine -= 1;
@@ -55,7 +55,7 @@ function drawSpade(sideLength, literal){
     middleLength -= 4;
     spaceBeforeLine += 2;
     while (middleLength > 0){
-        spadeString += linePrinter(spaceBeforeLine, middleLength, spaceBeforeLine, literal);
+        spadeString += linePrinter(spaceBeforeLine, middleLength, spaceBeforeLine, literal+" ");
         spadeString += '\n'
         middleLength -= 2;
         spaceBeforeLine += 1;
