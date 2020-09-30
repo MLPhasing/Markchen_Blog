@@ -40,7 +40,7 @@ function drawSpade(sideLength, literal){
     let middleLength= 0;
     let spaceBeforeLine = 0;
     middleLength = 1;
-    spaceBeforeLine = Math.ceil((sideLength - middleLength));
+    spaceBeforeLine = sideLength - middleLength;
     while (middleLength <= sideLength){
         spadeString += linePrinter(spaceBeforeLine, middleLength, 0, literal+" ");
         spadeString += '\n'
@@ -78,3 +78,5 @@ function main(){
     else{resultStr = drawRTTriangle(sideLength, literal);}
     alert(resultStr);
 }
+
+//drawSpade(12, '_');
