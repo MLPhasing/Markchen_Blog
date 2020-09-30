@@ -43,13 +43,13 @@ function drawSpade(sideLength, literal){
         middleLength = 1     
     }
     else{
-        middleLength = 2
+        middleLength = 1
     }
     spaceBeforeLine = (sideLength - middleLength)/2;
     while (middleLength <= sideLength){
         spadeString += linePrinter(spaceBeforeLine, middleLength, spaceBeforeLine, literal+" ");
         spadeString += '\n'
-        middleLength += 2;
+        middleLength += 1;
         spaceBeforeLine -= 1;
     }
     middleLength -= 4;
