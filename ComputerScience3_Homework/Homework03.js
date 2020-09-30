@@ -78,5 +78,3 @@ function main(){
     else{resultStr = drawRTTriangle(sideLength, literal);}
     alert(resultStr);
 }
-
-drawSpade(10, '_');
