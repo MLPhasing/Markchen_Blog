@@ -39,28 +39,23 @@ function drawSpade(sideLength, literal){
     let spadeString = "";
     let middleLength= 0;
     let spaceBeforeLine = 0;
-    if (sideLength % 2 == 1){
-        middleLength = 1     
-    }
-    else{
-        middleLength = 1
-    }
-    spaceBeforeLine = (sideLength - middleLength)/2;
+    middleLength = 1;
+    spaceBeforeLine = Math.ceil((sideLength - middleLength));
     while (middleLength <= sideLength){
-        spadeString += linePrinter(spaceBeforeLine, middleLength, spaceBeforeLine, literal+" ");
+        spadeString += linePrinter(spaceBeforeLine, middleLength, 0, literal+" ");
         spadeString += '\n'
         middleLength += 1;
         spaceBeforeLine -= 1;
     }
-    middleLength -= 4;
+    middleLength -= 2;
     spaceBeforeLine += 2;
     while (middleLength > 0){
         spadeString += linePrinter(spaceBeforeLine, middleLength, spaceBeforeLine, literal+" ");
         spadeString += '\n'
-        middleLength -= 2;
+        middleLength -= 1;
         spaceBeforeLine += 1;
     }
-    // console.log(spadeString);
+    console.log(spadeString);
     return spadeString;
 }
 
@@ -83,3 +78,5 @@ function main(){
     else{resultStr = drawRTTriangle(sideLength, literal);}
     alert(resultStr);
 }
+
+drawSpade(10, '_');
