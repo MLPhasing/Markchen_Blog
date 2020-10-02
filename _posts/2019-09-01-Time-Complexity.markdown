@@ -28,22 +28,28 @@ What we do concern is how the running time of algorithm increase as the scale of
 
 ## $\Theta (g(n))$ | Big-Theta Notation
 This notation represents a set of functions that has a **tight** upper bound and lower bound. If a function $f(x)$ is in the set $\Theta (g(n))$, then we know that there exists $n_0$, $c_1$, and $c_2$ such that
+
 $$
 c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \quad \forall n \geq n_0
 $$
 
+
 ## $O(g(n))$ | Big-O Notation
 This notation represents a set of functions that has a specific upper bound. If a function $f(x)$ is in the set $O(g(n))$, then we know that there exists a $n_0$ and $c$ such that
+
 $$
 0\leq f(n)\leq c\cdot g(n) \quad \forall n \geq n_0
 $$
+
 Since the big O notation only specify the upper bound of function, it is a much bigger set than big theta notation. Which means that $\Theta(n) \subseteq O(n)$.
 
 ## $\Omega(g(n))$  | Big-Omega Notation
 This notation represents a set of functions that has a lower bound. For all function in the set $\Omega(g(n))$, it must satisfy that there exist $c$ and $n_0$ such that
+
 $$
 c\cdot g(n) \leq f(n) \quad \forall n \geq n_0
 $$
+
 
 ## Amortized Analysis of Time Complexity
 
@@ -54,6 +60,7 @@ Example: In Java, the `arrayList` item is in fact an `array`. When it is full, i
 Though it seems to be inefficient and may have a time complexity of $O(n)$ for some situation, the **Average time complexity** of adding an item into the `arrayList` is still $O(1)$.
 
 Suppose reading & writing one element in an array will take time of $c$. Constructing an array of length $n = 1.5^m \cdot k$ will take:
+
 $$
 \begin{aligned}
 T(n) &= \underbrace{2\sum_{i = 0}^{m}{(1.5)^ik\cdot c}}_{\text{Copy element across arrays}} + \underbrace{(1.5)^m kc}_{\text{Add element into last array}} \\
@@ -63,4 +70,5 @@ T(n) &= \underbrace{2\sum_{i = 0}^{m}{(1.5)^ik\cdot c}}_{\text{Copy element acro
 &= O(n) 
 \end{aligned}
 $$
+
 Therefore, on average, the time it takes to add one element in the array will be $O(1)$.
