@@ -88,7 +88,16 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ### Algorithm Notes
 
-*[empty yet]*
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2019/09/01/Time-Complexity.html');">
+  <div class="title_container">
+  <h4>算法的时间复杂度  |  Time Complexity and Asymptotic Notation</h4>
+  </div>
+  <div class="container">
+    <p>时间复杂度是我们衡量算法的重要指标之一，一般我们使用大O记号来表示算法的时间复杂度。那么时间复杂度究竟是什么意思呢？我们为什么要用这个指标分析算法呢？</p>
+  </div>
+</div>
+
+<br>
 
 ### Others
 <div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/09/15/How-to-build-your-blog.html');">
