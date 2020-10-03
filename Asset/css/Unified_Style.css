@@ -1,3 +1,11 @@
+.side_bar{
+  float:left;
+  padding:10px;
+  border:none;
+  width:15%;
+  position:fixed;
+}
+
 details{
   padding: 4px;
   background-color: #FFFFFF;
