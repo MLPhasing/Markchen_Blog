@@ -6,6 +6,9 @@ permalink: index.html
 <link rel="stylesheet" type="text/css" href="Asset/css/Unified_Style.css">
 </head>
 
+*TOC
+{:toc}
+
 ## About This Site
 
 This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the site is in the Testing phase[^1] and here are the features in current plan:
