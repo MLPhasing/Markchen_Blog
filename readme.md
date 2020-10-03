@@ -98,7 +98,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 </div>
 
 <div style="width: 100%; height: 0.6em"></div>
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/09/02/Divide-and-Conquer.html');">
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2019/09/02/Divide-and-Conquer.html');">
   <div class="title_container">
     <h4>分治算法  |  Divide and Conquer</h4>
   </div>
