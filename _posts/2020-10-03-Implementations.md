@@ -7,6 +7,8 @@ layout: post
 
 <div class="download_card">
     <img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" style="width:100%">
-    <h4>test card</h4>
-    <p>test text</p>
+    <div class="download_container">
+        <h4>test card</h4>
+        <p>test text</p>
+    </div>
 </div>
