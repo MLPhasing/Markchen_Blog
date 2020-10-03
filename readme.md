@@ -6,7 +6,6 @@ permalink: index.html
 <link rel="stylesheet" type="text/css" href="Asset/css/Unified_Style.css">
 </head>
 
-{% include toc.html html=content %}
 
 ## About This Site
 
