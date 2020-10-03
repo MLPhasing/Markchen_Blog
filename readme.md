@@ -97,6 +97,18 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
   </div>
 </div>
 
+<div style="width: 100%; height: 0.6em"></div>
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/09/02/Divide-and-Conquer.html');">
+  <div class="title_container">
+    <h4>分治算法  |  Divide and Conquer</h4>
+  </div>
+  <div class="container">
+    <p>
+      分治算法可以解决这样的问题：问题可以被分为多个（通常是2个）子问题，通过一种简便方式合并每个子问题的答案就可以得到总问题的答案。分治算法分为三个步骤：分割，解决，合并。这里提供了三个非常经典的分治算法例子：最大子序列问题，矩阵快速乘法和归并排序。
+    </p>
+  </div>
+</div>
+
 <br>
 
 ### Others
