@@ -198,13 +198,13 @@ By analyzing this recurssive function, we can know that the algorithm `matrix_mu
 Calculate such matrices:
 
 <div class="datatable-begin"></div>
-|$S_i,   1\leq i\leq 5$|$S_i,    6\leq i \leq 10$|
-|-|-|
-|$S_1=B_{12}-B_{22}$|$S_6=B_{11}+B_{22}$|
-|$S_2=A_{11}+A_{12}$|$S_7=A_{12}-A_{22}$|
-|$S_3=A_{21}+A_{22}$|$S_8=B_{21}+B_{22}$|
-|$S_4=B_{21}-B_{11}$|$S_9=A_{11}-A_{21}$|
-|$S_5=A_{11}+A_{22}$|$S_{10}=B_{11}+B_{12}$|
+$S_i,   1\leq i\leq 5$|$S_i,    6\leq i \leq 10$
+----------------------|-------------------------
+$S_1=B_{12}-B_{22}$   |$S_6=B_{11}+B_{22}$
+$S_2=A_{11}+A_{12}$   |$S_7=A_{12}-A_{22}$
+$S_3=A_{21}+A_{22}$   |$S_8=B_{21}+B_{22}$
+$S_4=B_{21}-B_{11}$   |$S_9=A_{11}-A_{21}$
+$S_5=A_{11}+A_{22}$   |$S_{10}=B_{11}+B_{12}$
 <div class="datatable-end"></div>
 
 ### Calculate the $P_i$ matrices
@@ -212,15 +212,15 @@ Calculate these matrices by using the algorithm recurssively
 These matrices are based on the calculation of $S_i$ matrices
 
 <div class="datatable-begin"></div>
-|$P_i$|Formula|
-|-|-|
-|$P_1$|$A_{11}\cdot S_1$|
-|$P_2$|$B_{22}\cdot S_2$|
-|$P_3$|$B_{11}\cdot S_3$|
-|$P_4$|$A_{22}\cdot S_4$|
-|$P_5$|$S_5 \cdot S_6$|
-|$P_6$|$S_7 \cdot S_8$|
-|$P_7$|$S_9 \cdot S_{10}$|
+$P_i$|Formula
+-----|------------------
+$P_1$|$A_{11}\cdot S_1$
+$P_2$|$B_{22}\cdot S_2$
+$P_3$|$B_{11}\cdot S_3$
+$P_4$|$A_{22}\cdot S_4$
+$P_5$|$S_5 \cdot S_6$
+$P_6$|$S_7 \cdot S_8$
+$P_7$|$S_9 \cdot S_{10}$
 <div class="datatable-end"></div>
 
 ### Final step and code in Python
