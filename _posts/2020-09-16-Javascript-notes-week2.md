@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Javascript Notes Week 2
 ---
 
