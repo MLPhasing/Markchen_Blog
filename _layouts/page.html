@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
+<head>
+    <link rel="stylesheet" type="text/css" href="Asset/css/Unified_Style.css">
+</head>
 
-{% include toc.html html=content %}
+<div class="side_bar">
+    {% include toc.html html=content hmax=3 %}
+</div>
 
 {{ content }}
