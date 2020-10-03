@@ -27,6 +27,17 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 *点击卡片阅读全文*
 
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/03/Gradient-Descent-Methods.html');">
+  <div class="title_container">
+    <h4>深度学习的梯度下降方法   |  Gradient Descent Methods in Deep Learning</h4>
+  </div>
+  <div class="container">  
+    <p>神经网络的训练本质上是通过调节参数来最小化模型输出的损失函数。然而如何调节参数看似简单实际却有许多技巧和方法来优化。这篇文章会介绍最基本的随机梯度下降，采用一阶动量的SGD with momentum，和采用自适应学习率的AdaGrad, RMS Prop, 和集大成者 Adam。这些模型各自有各自的特点，并且在不同的场景中各有优劣。</p>
+  </div>
+</div>
+<div style="width: 100%; height: 0.6em"></div>
+
+
 <div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/07/31/How-do-Neural-Network-Work.html');">
   <div class="title_container">
     <h4>神经网络如何工作   |  How does Neural Network Work</h4>
