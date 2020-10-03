@@ -6,16 +6,6 @@ permalink: index.html
 <link rel="stylesheet" type="text/css" href="Asset/css/Unified_Style.css">
 </head>
 
-<div class="side_bar">
-  <h2>About This Site</h2>
-  <h2>My Articles</h2>
-  <h3>Neural Network and Machine Learning</h3>
-  <h3>Blockchain and Cryptocurrency</h3>
-  <h3>Algorithm Note</h3>
-  <h3>Others</h3>
-  <h2>Computer Science 3 HW & Notes</h2>
-</div>
-
 ## About This Site
 
 This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the site is in the Testing phase[^1] and here are the features in current plan:
