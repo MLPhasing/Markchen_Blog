@@ -121,6 +121,13 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
   </div>
 </div>
 
+<div style="width: 100%; height: 0.6em"></div>
+<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/04/USACO-Analysis-Page.html');">
+  <div class="title_container">
+    <h4>USACO 金组分析专栏  |  USACO Gold Division Problem Analysis</h4>
+  </div>
+</div>
+
 <br>
 
 ### Others
