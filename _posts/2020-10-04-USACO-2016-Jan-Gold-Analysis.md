@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: USACO
+tags: USACO
 ---
 
 <head>
