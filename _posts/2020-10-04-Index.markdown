@@ -5,15 +5,15 @@ layout: page
 <link rel="stylesheet" type="text/css" href="https://markchenyutian.github.io/Markchen_Blog/Asset/css/Unified_Style.css">
 </head>
 
-
-<h1>All Posts</h1>
-
-{% for post in site.posts %}
-    <div class="last_card">
-    <div class="last_container">
-    <span>{{ post.date | date_to_string }}</span> > <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-    </a>
-    </div>
-    </div>
-    <div style="width: 100%; height: 0.4em"></div>
-{% endfor %}
+<div id="home">
+  <h2>All Posts</h2>
+    {% for post in site.posts %}
+      <div class="last_card">
+      <div class="last_container">
+      <span>{{ post.date | date_to_string }}</span> > <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+      </a>
+      </div>
+      </div>
+      <div style="width: 100%; height: 0.4em"></div>
+    {% endfor %}
+</div>
