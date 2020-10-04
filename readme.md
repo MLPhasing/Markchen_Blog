@@ -199,9 +199,10 @@ There are three functions that can interact with users in browser - <code>alert<
     Javascript Week 3 Note
   </button>
 </div>
-
+<br>
+<br>
 <center>
-<button onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/04/Index.html')">See All Posts</button>
+<button onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/04/Index.html')">See All Posts >>></button>
 </center>
 ----------
 
