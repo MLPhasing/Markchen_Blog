@@ -7,6 +7,7 @@ layout: page
 
 
 <h1>All Posts</h1>
+
 {% for post in site.posts %}
     <div class="last_card">
     <div class="last_container">
