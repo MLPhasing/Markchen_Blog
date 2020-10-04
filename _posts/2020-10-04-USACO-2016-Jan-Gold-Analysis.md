@@ -23,7 +23,8 @@ tags: USACO
 
 ### Question Summary
 
-http://usaco.org/index.php?page=viewproblem2&cpid=597
+[Link to Question](http://usaco.org/index.php?page=viewproblem2&cpid=597
+)
 
 The $N$ hey are on a line, with position $x_1, x_2, \cdots, x_N$. If the cow is shoot to position $x$ with force $R$, then all the cows in range $x \pm R$ will explode. The hey exploded will have a range of $x' \pm (R - 1)$, the second round of hey exploded will have a range of $x'' \pm (R-2)$, and so on.
 

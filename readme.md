@@ -200,21 +200,9 @@ There are three functions that can interact with users in browser - <code>alert<
   </button>
 </div>
 
-&emsp;
-
-<div id="home">
-  <h2>All Posts</h2>
-    {% for post in site.posts %}
-      <div class="last_card">
-      <div class="last_container">
-      <span>{{ post.date | date_to_string }}</span> > <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-      </a>
-      </div>
-      </div>
-      <div style="width: 100%; height: 0.4em"></div>
-    {% endfor %}
-</div>
-
+<center>
+<button onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/04/Index.html')">See All Posts</button>
+</center>
 ----------
 
 [^1]: So some hyperlink may not function properly or the website will be quite ugly
