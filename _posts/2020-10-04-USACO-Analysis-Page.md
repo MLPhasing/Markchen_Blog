@@ -21,16 +21,14 @@ test Liquid
 
 <div id="home">
   <h2>All Posts</h2>
-    {% for post in site.posts %}
+    {% for post in site.tags["USACO"] %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
       <div class="card">
       <div class="title_container">
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+        <h3>{{ post.title }}</h3>
+      </div>
+      </div>
       </a>
-      </h3>
-      </div>
-      </div>
       <div style="width: 100%; height: 1em"></div>
     {% endfor %}
-    ---
-    {{site.tags}}
 </div>
