@@ -32,5 +32,5 @@ test Liquid
       <div style="width: 100%; height: 1em"></div>
     {% endfor %}
     ---
-    {{site.tags[USACO]}}
+    {{site.tags}}
 </div>
