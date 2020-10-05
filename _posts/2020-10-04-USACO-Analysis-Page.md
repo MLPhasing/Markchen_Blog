@@ -13,3 +13,16 @@ layout: page
     <h3>2016 January Contest Gold Division Analysis</h3>
   </div>
 </div>
+
+<br>
+test Liquid
+
+{%for usaco_post in site.tags.USACO%}
+  <a href={{ site.baseurl }}{{ usaco_post.url }}>
+  <div class="card">
+    <div class="title_container">
+      <h3>{{usaco_post.title}}</h3>
+    </div>
+  </div>
+  </a>
+{%end for%}
