@@ -100,3 +100,29 @@ By using nested binary search, the time complexity can be reduced to $O(n\log{n}
 ### Time Complexity Analysis
 
 With time complexity of $O(n \log{n}\log{n})$ and $n < 50,000$, the approximate steps it need is $50,000 \times 16\times 16 = 1.3\times 10^7$ (Consider that we are performing two binary search to determine the existence of starting point, the actual computation step should multiply with factor of $2$, which is approx. $2.6\times 10^7$), which is an acceptable computational time complexity for Python 3.
+
+---
+
+## Problem 2. Radio Contact
+
+ ### Question Summary
+
+Farmer and Bessie are in a two-dimension space with size $1000\times 1000$. Farmer start at $f_x, f_y$, while Bessie start at $b_x, b_y$. ($0 \leq f_x, f_y, b_x, b_y \leq 1000$)
+
+Farmer will walk on a path of length $M$, which has "N", "W", "E", "S" in the path and Bessie will walk on a path of length $N$, which has "N", "W", "E", "S" in it. $0 \leq M, N \leq 1000$
+
+At each tick, either Farmer or Bessie can choose to stay at current position. A radio that consumes energy of $\text{Distance}(Farmer, Bessie)^2$  will remain open until both farmer and Bessie finish their path. **What is the minimum energy the radio will cost**?
+
+### Proposed Solution
+
+This question can be solved using Dynamic Programming.
+
+Build up a table with size $M \times N$ called $E$. $E[m][n]$ represent the **minimum energy radio has consumed** after farmer takes $m$ moves and Bessie takes $n$ moves. Since the square of distance is always non-negative, either farmer or Bessie (or both) will have to take one step in one tick. Therefore, the result at $E[m][n]$ can be used to calculate $E[m + 1][n]$, $E[m  + 1][n + 1]$ and $E[m][n + 1]$, which represent that Bessie stop, no one stop, and Farmer stop, respectively.
+
+To start at a specific position, say $E[x][y]$ in the table, we must make sure the value on this position is already the minimum energy, which means that $E[x-1][y]$, $E[x-1][y-1]$, and $E[x][y-1]$ has been calculated. Therefore, we should calculate the whole table from top to down, and in each row from left to right.
+
+### Time and Space Complexity Analysis
+
+Calculating the value of adjacent cell in a table will have a time complexity of $O(1)$, and we will have to calculate each cell inside the table, so the total time complexity will be $O(MN) \approx O(N^2)$. Since the upper bound of $N$ is only $1\times 10^3$, we can use Python3 to solve this problem.
+
+To store the result for Dynamic Programming (memorization), we have to build a two-dimensional array with size $1000\times 1000$, and the space complexity should not be a problem.
