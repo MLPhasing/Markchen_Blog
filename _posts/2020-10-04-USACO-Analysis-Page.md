@@ -19,14 +19,16 @@ layout: page
 <br>
 test Liquid
 
-<div>
-  {%for post in site.tags.USACO%}
-    <a href={{ site.baseurl }}{{ post.url }}>
-    <div class="card">
+<div id="home">
+  <h2>All Posts</h2>
+    {% for post in site.posts %}
+      <div class="card">
       <div class="title_container">
-        <h3>{{post.title}}</h3>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+      </a>
+      </h3>
       </div>
-    </div>
-    </a>
-  {%end for%}
+      </div>
+      <div style="width: 100%; height: 1em"></div>
+    {% endfor %}
 </div>
