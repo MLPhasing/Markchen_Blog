@@ -18,11 +18,11 @@ layout: page
 test Liquid
 
 <div>
-  {%for usaco_post in site.tags.USACO%}
-    <a href={{ site.baseurl }}{{ usaco_post.url }}>
+  {%for post in site.tags.USACO%}
+    <a href={{ site.baseurl }}{{ post.url }}>
     <div class="card">
       <div class="title_container">
-        <h3>{{usaco_post.title}}</h3>
+        <h3>{{post.title}}</h3>
       </div>
     </div>
     </a>
