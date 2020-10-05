@@ -11,12 +11,13 @@ layout: page
 
 <h2>All Posts with tag:USACO</h2>
 {% for post in site.tags["USACO"] %}
-  <a href="{{ site.baseurl }}{{ post.url }}">
   <div class="card">
+  <a href="{{ site.baseurl }}{{ post.url }}">
   <div class="title_container">
     <h3>{{ post.title }}</h3>
   </div>
-  </div>
   </a>
+  </div>
+  
   <div style="width: 100%; height: 1em"></div>
 {% endfor %}
