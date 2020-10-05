@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "神经网络是如何工作的"
+tags: Neural_Network
 ---
 <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
