@@ -105,7 +105,9 @@ With time complexity of $O(n \log{n}\log{n})$ and $n < 50,000$, the approximate 
 
 ## Problem 2. Radio Contact
 
- ### Question Summary
+[Link to Question](http://usaco.org/index.php?page=viewproblem2&cpid=598)
+
+### Question Summary
 
 Farmer and Bessie are in a two-dimension space with size $1000\times 1000$. Farmer start at $f_x, f_y$, while Bessie start at $b_x, b_y$. ($0 \leq f_x, f_y, b_x, b_y \leq 1000$)
 
