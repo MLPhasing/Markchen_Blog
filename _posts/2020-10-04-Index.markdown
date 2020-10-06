@@ -4,6 +4,7 @@ layout: page
 <head>
 <link rel="stylesheet" type="text/css" href="https://markchenyutian.github.io/Markchen_Blog/Asset/css/Unified_Style.css">
 </head>
+{{site.tags["USACO"][1]}}
 
 # All Posts Classified by Tags
 {% for tag in site.tags %}
