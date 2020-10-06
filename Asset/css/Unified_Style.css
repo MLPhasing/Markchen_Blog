@@ -46,6 +46,7 @@ button:hover{
   transition: 0.3s;
   border-radius:10px;
   cursor:pointer;
+  animation: fadeIn 1s ease;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -63,21 +64,6 @@ button:hover{
   padding: 2px 16px 2px 16px;
 }
 
-
-.last_card {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius:5px;
-  cursor:pointer;
-}
-/* On mouse-over, add a deeper shadow */
-.last_card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-.last_container {
-  padding: 4px 4px 4px;
-  font-size: 80%;
-}
 .content_block{
   padding: 10px 10px;
   background-color: #FFFFFF;
@@ -88,4 +74,9 @@ button:hover{
 }
 .content_block:hover{
   background-color: #f5f9fd;
+}
+
+@keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
