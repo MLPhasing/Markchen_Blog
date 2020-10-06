@@ -2,10 +2,9 @@
     background-color: white;
     position: absolute;
     left: 0px;
-    top: 16px;
     max-width: 20%;
     color: #606c71;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 1400px){
     .sidebar{display: none};
 }
