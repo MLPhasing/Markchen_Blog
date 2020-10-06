@@ -1,0 +1,6 @@
+.sidebar{
+    background-color: #00000018;
+    position: absolute;
+    left: -10px;
+    max-width: 60px;
+}
