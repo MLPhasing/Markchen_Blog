@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mainPage
 permalink: index.html
 ---
 <head>
