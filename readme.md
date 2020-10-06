@@ -28,9 +28,6 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 *点击卡片阅读全文*
 
 <div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/03/Gradient-Descent-Methods.html');">
-  <div class="new_decorator">
-    TEST
-  </div>
   <div class="title_container">
     <h4>深度学习的梯度下降方法   |  Gradient Descent Methods in Deep Learning</h4>
   </div>
