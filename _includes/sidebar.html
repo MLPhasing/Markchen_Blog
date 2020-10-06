@@ -1,3 +1,7 @@
 <section class="sidebar">
-    test
+    <ul>
+    {% for tag in site.tags %}
+        <li>{{ tag[0] }} [{{tag[1] | size}}]</li>
+    {% endfor %}
+    </ul>
 </section>

@@ -1,6 +1,7 @@
 .sidebar{
-    background-color: #00000018;
+    background-color: white;
     position: absolute;
-    left: -10px;
-    max-width: 60px;
+    left: 0px;
+    max-width: 20%;
+    color: #606c71;
 }
