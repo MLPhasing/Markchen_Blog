@@ -156,7 +156,7 @@ The Problem can be divide into two parts:
 
 For the **first** part, we can convert the polygon to a string, where A, B, C and D represents four different types of corners, and integer $m$ represent the length of edge.
 
-![image2](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO2016_Jan_Gold3-2.jpg)
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/USACO2016_Jan_Gold3-2.jpg" alt="image2" style="zoom: 33%;" />
 
 For example, the polygon in sample can be represented as
 
