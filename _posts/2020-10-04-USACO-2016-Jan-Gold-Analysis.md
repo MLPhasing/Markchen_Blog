@@ -128,3 +128,54 @@ To start at a specific position, say $E[x][y]$ in the table, we must make sure t
 Calculating the value of adjacent cell in a table will have a time complexity of $O(1)$, and we will have to calculate each cell inside the table, so the total time complexity will be $O(MN) \approx O(N^2)$. Since the upper bound of $N$ is only $1\times 10^3$, we can use Python3 to solve this problem.
 
 To store the result for Dynamic Programming (memorization), we have to build a two-dimensional array with size $1000\times 1000$, and the space complexity should not be a problem.
+
+
+
+---
+
+## Problem 3. Lights Out
+
+[Link to Question](http://usaco.org/index.php?page=viewproblem2&cpid=599)
+
+### Question Summary
+
+Bessie is on a vertex of a simple polygon with $n$ vertices. The coordinate of vertices are $(x_1, y_1), \cdots (x_n, y_n)$ listed in a clockwise order. The exit of polygon is located at $(x_1, y_1)$. When the light is out, she forgot which vertex she is on but still remember the whole polygon. By moving clockwise and passing through several edges, she will be able to identify the edge she is on. After she know her position, she will either move clockwise or counter clockwise to get to the nearest exit.
+
+The question asks the **greatest difference** between distance Bessie has to go in dark to exit the polygon and the distance Bessie has to go with lights on to exit the polygon in worst case.
+
+### Sample Case Explanation
+
+![image](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO2016JanGold3_1.png)
+
+### Proposed Solution
+
+The Problem can be divide into two parts:
+
+1. Help Bessie identify its actual position (calculate the length Bessie has to walk clockwise to identify her position)
+2. Calculate the shortest distance between an arbitrary vertex on polygon and the exit.
+
+For the **first** part, we can convert the polygon to a string, where A, B, C and D represents four different types of corners, and integer $m$ represent the length of edge.
+
+![image2](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO2016_Jan_Gold3-2.jpg)
+
+For example, the polygon in sample can be represented as
+
+$$
+\text{10C1D10A1}
+$$
+
+One primitive way to find the shortest unique substring is to maintain a set of pointers, where the pointers represent the starting of one substring that has the same pattern.
+
+> For instance, suppose we have a string "10C1D10A10C10A", when Bessie pass by the first edge, she can get information "10C". At this time, the pointer set will be {0, 8}, since [0:3] and [8:11] are both "10C".
+>
+> Then, Bessie pass by another edge and get new info "1D",  the pointer set will be reduced to {0}. Since [0 + 3: 0+3+2] is "1D", while "[8+3: 8+3+2]" is "10".
+
+This will have a time complexity of $O(n^2)$.
+
+For the **second** part, we can store a list $\text{Dist}$  where $\text{Dist}[n]$ represent the distance between $n$th vertex and the exit when Bessie moves counterclockwise. Also, we will record the perimeter of whole polygon so that the distance between nth vertex and the exit when Bessie moves clockwise can be calculated using $\text{Perimeter}-\text{Dist}[n]$. This has a time complexity of $O(1)$.
+
+Since we $n$ vertexes to go through, the total time complexity will be $O(n^3)$.
+
+### Time Complexity Analysis
+
+$4\leq N\leq 200$, so time complexity of $O(n^3)$ will only lead to a computational step of at most $1.6\times 10^7$ steps, and this problem can be solved by Python3 with the proposed solution.
