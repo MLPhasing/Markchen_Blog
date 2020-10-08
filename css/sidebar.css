@@ -1,11 +1,15 @@
 .sidebar{
-    background-color: none;
-    position: absolute;
+    background-color: whitesmoke;
+    position: inherit;
+    top: 40px;
     left: 0px;
-    max-width: 20%;
+    max-width: fit-content;
     color: #606c71;
     padding-left: 20px;
+    box-shadow: 3px 3px 5px #b3b3b3;
+    float: left;
+    border-radius: 0 10px 10px 0;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1300px){
     .sidebar{display: none};
 }
