@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: Machine Learning
+tags: Machine_Learning
 excerpt_separator: <!--more-->
 title: "什么是贝叶斯网络 | What is Bayes Network"
 ---

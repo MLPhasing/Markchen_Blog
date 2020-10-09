@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to build a Blog using GitHub Pages
+title: "如何通过Github Pages建立自己的blog | How to build up your Blog using GitHub Pages?"
 excerpt_separator: <!--more-->
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 tags: Neural_Network
 excerpt_separator: <!--more-->
+title: "深度学习的梯度下降方法 | Gradient Descent Methods in Deep Learning"
 ---
 
 <head>
