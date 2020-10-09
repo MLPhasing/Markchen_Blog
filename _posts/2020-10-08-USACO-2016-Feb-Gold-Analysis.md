@@ -34,8 +34,14 @@ By repeating this process all around the circular barn, we can get the minimum e
 
 When we can always drop down one cow per empty room, the result will be optimized. (Or, one cow will have to move for more than 1 round aside the barn)
 
-### Time Complexity Analysis
-
 The cost of maintaining a queue, using linked list, is $O(1)$ for pop and push operation. Since there will have $n$ cows, the total time complexity will be $O(n)$ for a single starting point.
 
-There are totally $n$ possible starting points, so the total complexity will be $O(n^2)$. This will lead to TLE for the result since there will have approx.  $1\times 10^{10}$ computational steps at most.
+There are totally $n$ possible starting points, so the total complexity will be $O(n^2)$. This will lead to TLE for the result since there will have approx.  $1\times 10^{10}$ computational steps at most. Therefore, we need to optimize our solution
+
+The main problem in the solution above is that we will have to go through all possible starting point, and this will consume a lot of time.
+
+To minimize the time of try, we can first start at a random position, and note the room number that has maximum number of cows in the queue. Then, we can start directly at that position. This can lower the number of try from $n$ to 2, and the total time complexity will be $O(n)$.
+
+### Time Complexity Analysis
+
+Since $3\leq n\leq 1\times 10^5$, with the time complexity of $O(n)$, we can have at most $1\times 10^6$ computational step and we can AC this problem with Python 3 in the time limit.
