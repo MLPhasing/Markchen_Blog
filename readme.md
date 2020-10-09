@@ -27,49 +27,37 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 *点击卡片阅读全文*
 
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/03/Gradient-Descent-Methods.html');">
-  <div class="title_container">
-    <h4>深度学习的梯度下降方法   |  Gradient Descent Methods in Deep Learning</h4>
-  </div>
-  <div class="container">  
-    <p>神经网络的训练本质上是通过调节参数来最小化模型输出的损失函数。然而如何调节参数看似简单实际却有许多技巧和方法来优化。这篇文章会介绍最基本的随机梯度下降，采用一阶动量的SGD with momentum，和采用自适应学习率的AdaGrad, RMS Prop, 和集大成者 Adam。这些模型各自有各自的特点，并且在不同的场景中各有优劣。</p>
-  </div>
+<div>
+{% for post in site.tags["Neural_Network"] %}
+    <a href="{{site.baseurl}}{{ post.url }}">
+        <div class="card">
+            <div class="title_container">
+                <h4>{{post.title}}</h4>
+            </div>
+            <div class="container">
+                {{post.excerpt}}
+            </div>
+        </div>
+    </a>
+    <div style="width: 100%; height: 0.6em"></div>
+{% endfor %}
 </div>
-<div style="width: 100%; height: 0.6em"></div>
 
-
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/07/31/How-do-Neural-Network-Work.html');">
-  <div class="title_container">
-    <h4>神经网络如何工作   |  How does Neural Network Work</h4>
-  </div>
-  <div class="container">  
-    <!--<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/2.png" align="left" height=100>-->
-    <p>神经网络作为一种新兴的计算机技术被许多人称为一种全新的“编程范式”，与往常的算法编写不同，神经网络是一种“数据驱动”的编程方法。在往常的算法编写中，人们需要手动编写算法的逻辑，而在神经网络中，人们只需要为网络提供海量数据和参考答案，网络就会自动生成算法。那么神经网络到底是怎么工作的呢？</p>
-  </div>
+<div>
+{% for post in site.tags["Machine_Learning"] %}
+    <a href="{{site.baseurl}}{{ post.url }}">
+        <div class="card">
+            <div class="title_container">
+                <h4>{{post.title}}</h4>
+            </div>
+            <div class="container">
+                {{post.excerpt}}
+            </div>
+        </div>
+    </a>
+    <div style="width: 100%; height: 0.6em"></div>
+{% endfor %}
 </div>
-<div style="width: 100%; height: 0.6em"></div>
-
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/04/30/What-is-Bayes-Network.html');">
-  <div class="title_container">
-    <h4>什么是贝叶斯网络   |  What is Bayes Network</h4>
-  </div>
-  <div class="container">
-    <!--<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Bayes3.png" align="left" height=100>-->
-    <p>贝叶斯网络是人们在探索机器学习时的一个重要里程碑，通过贝叶斯网络，机器学习摆脱了以往基于形式逻辑推理和庞大知识库的限制，开始了“统计学习”的新纪元。那么什么是贝叶斯网络呢？贝叶斯网络和贝叶斯统计学派又有什么关系呢？</p>
-  </div>
-</div>
-<div style="width: 100%; height: 0.6em"></div>
-
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/04/03/What-is-LSTM.html');">
-  <div class="title_container">
-    <h4>长短期记忆递归网络   |  Long-Short Term Memory (LSTM) Network</h4>
-  </div>
-  <div class="container">
-    <!--<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/image-20200402233826864.png" align="left" height=100>-->
-    <p>一般的神经网络只能处理单个信息，可是有的时候神经网络的输入是一个时间序列，在这种情况下普通的前馈神经网络就不能利用“上下文”中隐含的信息来更好的处理当前输入。为了解决这个问题，人们提出了递归神经网络(Recurrent Neural Network, RNN)。可是递归神经网络也有问题：由于同样的权重在网络中一直被累乘，在反向传播的时候极容易出现梯度消失与梯度爆炸的问题。同时，由于RNN在状态间传递的信息过少，RNN在上下文距离较远的时候会很快的遗忘前文信息。为了解决这些问题，人们提出了LSTM这个新的网络模型，它可以很好的处理以上这些问题。</p>
-  </div>
-</div>
-<div style="width: 100%; height: 0.6em"></div>
 
 <div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/Articles/Constraint_Satisfaction_Problem_ZhiHu.html');">
   <div class="title_container">
@@ -100,25 +88,20 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ### Algorithm Notes
 
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2019/09/01/Time-Complexity.html');">
-  <div class="title_container">
-  <h4>算法的时间复杂度  |  Time Complexity and Asymptotic Notation</h4>
-  </div>
-  <div class="container">
-    <p>时间复杂度是我们衡量算法的重要指标之一，一般我们使用大O记号来表示算法的时间复杂度。那么时间复杂度究竟是什么意思呢？我们为什么要用这个指标分析算法呢？</p>
-  </div>
-</div>
-
-<div style="width: 100%; height: 0.6em"></div>
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2019/09/02/Divide-and-Conquer.html');">
-  <div class="title_container">
-    <h4>分治算法  |  Divide and Conquer</h4>
-  </div>
-  <div class="container">
-    <p>
-      分治算法可以解决这样的问题：问题可以被分为多个（通常是2个）子问题，通过一种简便方式合并每个子问题的答案就可以得到总问题的答案。分治算法分为三个步骤：分割，解决，合并。这里提供了三个非常经典的分治算法例子：最大子序列问题，矩阵快速乘法和归并排序。
-    </p>
-  </div>
+<div>
+{% for post in site.tags["Algorithm"] %}
+    <a href="{{site.baseurl}}{{ post.url }}">
+        <div class="card">
+            <div class="title_container">
+                <h4>{{post.title}}</h4>
+            </div>
+            <div class="container">
+                {{post.excerpt}}
+            </div>
+        </div>
+    </a>
+    <div style="width: 100%; height: 0.6em"></div>
+{% endfor %}
 </div>
 
 <div style="width: 100%; height: 0.6em"></div>
@@ -131,15 +114,21 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <br>
 
 ### Others
-<div class="card" onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/09/15/How-to-build-your-blog.html');">
-  <div class="title_container">
-    <h4>如何通过Github Pages建立自己的blog   |  How to build up your Blog using GitHub Pages?</h4>
-  </div>
-  <div class="container">
-    <p>GitHub Pages 可以用于建立自己的个人博客，通过Github Pages 服务，建立个人博客不再需要单独购买域名与服务器，GitHub 会提供域名。通过 jekyll， Pages会对markdown文件进行渲染，从而大大提升写blog文章的简易度</p>
-  </div>
+<div>
+{% for post in site.tags["Others"] %}
+    <a href="{{site.baseurl}}{{ post.url }}">
+        <div class="card">
+            <div class="title_container">
+                <h4>{{post.title}}</h4>
+            </div>
+            <div class="container">
+                {{post.excerpt}}
+            </div>
+        </div>
+    </a>
+    <div style="width: 100%; height: 0.6em"></div>
+{% endfor %}
 </div>
-<br>
 
 ----------
 
