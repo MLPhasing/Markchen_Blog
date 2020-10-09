@@ -2,7 +2,7 @@
 layout: post
 tags: Algorithm
 excerpt_separator: <!--more-->
-title: ""分治算法 | Divide and Conquer"
+title: "分治算法 | Divide and Conquer"
 ---
 
 <head>
