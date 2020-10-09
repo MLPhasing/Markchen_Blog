@@ -80,3 +80,8 @@ button:hover{
   0%{opacity: 0;}
   100%{opacity: 1;}
 }
+
+a{
+  text-decoration: none;
+  color: #4b4b4b;
+}
