@@ -67,7 +67,8 @@ function main(){
     }
     while (true){
         var sideLength = prompt("Please put the sidelength of shape here.") * 1;
-        if (sideLength * 1 != NaN && sideLength * 1 > 0){break;}
+        if (sideLength * 1 != NaN && sideLength * 1 > 0 && sideLength * 1 < 1001){break;}
+        else if (sideLength * 1 > 1000){alert("WARNING: The input sidelength is too long, please enter a number that is smaller than 1000");}
         else{alert("Invalid Input, please try again.");}
     }
     let literal = prompt("Please put the character you want to use to print here.")[0];

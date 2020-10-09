@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "神经网络是如何工作的"
+title: "神经网络如何工作 | How does Neural Network Work"
 tags: Neural_Network
+excerpt_separator: <!--more-->
 ---
 <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
@@ -15,6 +16,10 @@ tags: Neural_Network
         });
     </script>
 </head>
+神经网络作为一种新兴的计算机技术被许多人称为一种全新的“编程范式”，与往常的算法编写不同，神经网络是一种“数据驱动”的编程方法。在往常的算法编写中，人们需要手动编写算法的逻辑，而在神经网络中，人们只需要为网络提供海量数据和参考答案，网络就会自动生成算法。那么神经网络到底是怎么工作的呢？
+
+<!--more-->
+
 # 神经网络是如何工作的?
 
 > By Mark Chen, 29299731

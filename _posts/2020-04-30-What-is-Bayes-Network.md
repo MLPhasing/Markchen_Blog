@@ -1,6 +1,8 @@
 ---
 layout: post
-tags: Neural_Network
+tags: Machine Learning
+excerpt_separator: <!--more-->
+title: "什么是贝叶斯网络 | What is Bayes Network"
 ---
 
 <head>
@@ -15,6 +17,9 @@ tags: Neural_Network
         });
     </script>
 </head>
+贝叶斯网络是人们在探索机器学习时的一个重要里程碑，通过贝叶斯网络，机器学习摆脱了以往基于形式逻辑推理和庞大知识库的限制，开始了“统计学习”的新纪元。那么什么是贝叶斯网络呢？贝叶斯网络和贝叶斯统计学派又有什么关系呢？
+
+<!--more-->
 
 # CS188 课堂笔记 - 贝叶斯网络 Bayesian Network
 
