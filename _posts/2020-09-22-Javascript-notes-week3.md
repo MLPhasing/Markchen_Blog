@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JavaScript Notes week 3
+tags: JavaScript
 ---
 
 ## Javascript Notes 3
