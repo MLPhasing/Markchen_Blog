@@ -20,6 +20,8 @@ tags: USACO
 
 ## Problem 1 Circular Barn
 
+[Link to Question](http://usaco.org/index.php?page=viewproblem2&cpid=621)
+
 ### Question Summary
 
 The farmer has a circular barn with room numbered from 1 to $n, 3\leq n\leq 1\times 10^5$ . Each room is connected to the rooms that is adjacent to it, and there has one door in each room opened to outside space. Farmer wants each single cow to stay in one single room. Currently, the cows are staying outside the barn randomly, which means that some door may have multiple cows outside it, or have no cows outside it. The energy cost for each cow is $\text{dist}^2$. The question ask for the minimum energy cost to make each cow stay in each room singly.
