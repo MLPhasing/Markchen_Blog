@@ -4,9 +4,7 @@ title: "如何通过Github Pages建立自己的blog | How to build up your Blog 
 excerpt_separator: <!--more-->
 tags: Others
 ---
-
 GitHub Pages 可以用于建立自己的个人博客，通过Github Pages 服务，建立个人博客不再需要单独购买域名与服务器，GitHub 会提供域名。通过 jekyll， Pages会对markdown文件进行渲染，从而大大提升写blog文章的简易度
-
 <!--more-->
 
 # 如何使用 GitHub Pages
