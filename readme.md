@@ -168,10 +168,7 @@ There are three functions that can interact with users in browser - <code>alert<
   </button>
 </div>
 <br>
-<br>
-<center>
-<button onclick="window.open('https://markchenyutian.github.io/Markchen_Blog/2020/10/04/Index.html')">See All Posts >>></button>
-</center>
+
 ----------
 
 [^1]: So some hyperlink may not function properly or the website will be quite ugly
