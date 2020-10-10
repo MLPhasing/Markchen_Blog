@@ -59,8 +59,6 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 {% endfor %}
 </div>
 
-<br>
-
 ### Blockchain and Cryptocurrency - *2020 Computer Science 2*
 
 <div>
