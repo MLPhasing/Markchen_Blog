@@ -64,7 +64,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 ### Blockchain and Cryptocurrency - *2020 Computer Science 2*
 
 <div>
-{% for post in site.tags["CryptoCurrency"] %}
+{% for post in site.tags["Cryptocurrency"] %}
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="card">
             <div class="title_container">

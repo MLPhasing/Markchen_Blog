@@ -6,10 +6,15 @@ excerpt_separator: <!--more-->
 ---
 Since 2016, Bitcoin is gaining more and more attention in the world not only because its skyrocket price, but also for the brand new concept of **Decentralized** transaction system and new model of privacy. In this slide, we will use illustration to show how **Bitcoin** is different with traditional transaction system.
 <!--more-->
+<style>
+    iframe{
+        border-radius: 10px;
+    }
+</style>
 
 ## Bitcoin Intro Slide
 
-<iframe src="https://onedrive.live.com/embed?cid=AACD96FD289D9DD0&resid=AACD96FD289D9DD0%2176270&authkey=AFhfXIApLRNkDqA&em=2" width="804" height="654" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://onedrive.live.com/embed?cid=AACD96FD289D9DD0&resid=AACD96FD289D9DD0%2176270&authkey=AFhfXIApLRNkDqA&em=2" width="804" height="453" frameborder="0" scrolling="no"></iframe>
 
 ## Brief Outline
 
