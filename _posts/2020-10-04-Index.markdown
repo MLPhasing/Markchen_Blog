@@ -6,7 +6,9 @@ layout: page
 </head>
 
 # All Posts Classified by Tags
-{% for tag in site.tags | sort%}
+
+{% assign sorted_tags = (site.tags | sort:0) %}
+{% for tag in sorted_tags %}
   <h2>{{ tag[0] }} ({{tag[1] | size}} posts)</h2>
   <ul>
     {% for post in tag[1] %}
