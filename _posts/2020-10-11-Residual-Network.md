@@ -83,5 +83,5 @@ excerpt_separator: <!--more-->
 
 ---
 
-[1]: https://en.wikipedia.org/wiki/Residual_neural_network
+[ 1 ] : https://en.wikipedia.org/wiki/Residual_neural_network
 
