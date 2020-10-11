@@ -4,9 +4,19 @@ title: 深度残差网络  |  Residual Network
 tags: Neural_Network
 excerpt_separator: <!--more-->
 ---
-
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            }
+        });
+    </script>
+</head>
 在深度学习中，两个严重影响了模型效果的问题是梯度消失问题与梯度下降问题。这两个问题的出现与深度学习的根本机制 - 反向传播损失函数梯度有关。在很长一段时间里，人们认为超过100层的网络是“不可训练”的。然而残差网络 (Residual Network, ResNet) 的出现改变了这一切。通过设计“短路”机制，残差网络可以让梯度更好的在网络的层之间传播，从而使得训练500+层的超深神经网络成为了可能。相似的机制也启发了一大批拥有shortcut connection的神经网络，例如在医学图像处理领域常见的 U-net 和 Dense Net。
-
 <!--more-->
 
 # 深度残差网络 ResNet 解析
@@ -56,6 +66,8 @@ excerpt_separator: <!--more-->
 ## 4. 深度残差网络的表现
 
 在论文中，作者分别使用了两种 Residual Block 来构建深度残差网络。一种被称作“building block”，这种block包含两个连续的$3\times 3$ 卷积核，拥有较多的参数；而另一种被称作"bottleneck building block"，这种block包含三个卷积核，其中第一个和第三个是 $1\times 1$卷积核，中间的是 $3\times 3$ 卷积核，这样的block相对于基本的basic block来说拥有更小的参数量。
+
+![Building Blocks of ResNet](https://markchenyutian.github.io/Markchen_Blog/Asset/ResNet5.png)
 
 通过重复使用这两种block，搭配上合适的池化函数，作者构建了若干个深度不同的深度残差网络。这些网络分别有18, 34,  50, 101, 和 152层，一般被大家简称为 ResNet18, ResNet34, ..., ResNet152。同时，为了验证模型的短接通路对梯度传播的改善效果，作者还测试了非常极端的，拥有1202层的ResNet1202在CIFAR-10数据集上的表现。
 
