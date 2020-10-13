@@ -126,7 +126,7 @@
 
 * { box-sizing: border-box; }
 
-body { padding: 0; margin: 0; font-family: "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; display:flex}
+body_content { padding: 0; margin: 0; font-family: "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; display:flex}
 
 * {
   box-sizing: border-box;
@@ -134,11 +134,11 @@ body { padding: 0; margin: 0; font-family: "Arial", "Helvetica Neue", Helvetica,
   padding: 0;
 }
 
-body > *:not(main) {
+body_content > *:not(main) {
   min-width: 20vw;
 }
 
-body > main-content{
+body_content > main-content{
   flex: 1;
   margin: 1vh 0;
 }
@@ -150,7 +150,7 @@ content {
   border-radius: 3px;
   display: flex;
   /*justify-content: center;*/
-  align-items: center;
+  align-items: top;
 }
 
 a { color: #1e6bb8; text-decoration: none; }
