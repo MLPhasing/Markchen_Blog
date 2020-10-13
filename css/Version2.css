@@ -144,13 +144,17 @@ body_content > main-content{
 }
 
 content {
-  background-color: #e9e9e9;
+  background-color: #f5f5f5;
   width: 100%;
   height: 100%;
   border-radius: 3px;
   display: flex;
   /*justify-content: center;*/
   align-items: top;
+}
+
+.main-content{
+  box-shadow: inset 5px 10px #666666;
 }
 
 a { color: #1e6bb8; text-decoration: none; }
