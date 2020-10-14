@@ -1,5 +1,7 @@
 ---
 layout: post
+tags: JavaScript
+title: Javascript Notes Week 1
 ---
 
 <p>
