@@ -135,6 +135,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/10/Homework01.html");'>
     Homework for Week 1
 </button>
+&emsp;
 <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/09/10/Javascript-notes-week1.html");'>
     JavaScript Week 1 Note
 </button>
