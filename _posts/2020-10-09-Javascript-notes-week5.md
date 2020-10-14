@@ -7,14 +7,14 @@ title: Javascript Notes Week 5
 ## Javascript Notes 5
 
 ## Functions of  `Array`
-### `Array.length`
+### Function 0: `Array.length`
 
 ```javascript
 > arr = {1, 2, 3};
 > arr.length;
 3
 ```
-### `Array.sort()`
+### Function 1: `Array.sort()`
 
 ```javascript
 > arr = {1, 2, 3};
@@ -51,10 +51,10 @@ When the program is being executed, the anonymous function will **Not be loaded 
 [5, 4, 3, 2, 1]
 ```
 
-### `Array.find()`
+### Function 2: `Array.find()`
 In the `find()` function, ... (not finished)
 
 
-### `Array.filter()`
+### Function 3: `Array.filter()`
 In the `filter()` function, we need to provide a `filterFn`. The filter function will return a boolean value (or other value, since in Javascript, every object has a corresponding boolean property).
 The `Array.filter()` will return a new array, composts of all the elements such that `filterFn(element) == True` in it.
