@@ -125,6 +125,19 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 
 ## Computer Science 3 Homework & Notes
 
+<div>
+{% for post in site.tags["JavaScript"] %}
+    <a href="{{site.baseurl}}{{ post.url }}">
+        <div class="card">
+            <div class="title_container">
+                <h4>{{post.title}}</h4>
+            </div>
+        </div>
+    </a>
+    <div style="width: 100%; height: 0.6em"></div>
+{% endfor %}
+</div>
+
 <center><img src="https://markchenyutian.github.io/Markchen_Blog/Asset/JS.png" height=100></center>
 <div style="width: 100%; height: 1em"></div>
 
