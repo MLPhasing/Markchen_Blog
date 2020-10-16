@@ -78,7 +78,7 @@ console.log(variable);
 
 
 
-`array.splice(start_index, slice_length)` will change the **array's content** and return the array that has been cut off.
+`array.splice(start_index, slice_length)` will change the **array's content** and return the array that has been cut off. (inplace operation)
 
 `array.slice(start_index, end_index)` will **NOT** change the array's content and will return the array in that range. (somehow similar to Python, slice will NOT include the element at end_index)
 
