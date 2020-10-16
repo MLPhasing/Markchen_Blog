@@ -1,7 +1,7 @@
 const heroData = require('./heroData');
-let heroInfo = heroData.getHero();
+var heroInfo = heroData.getHero();
 
-function getHighestAttack(rank, heroInfo){
+function getHighestAttack(rank){
     heroInfo.sort((a, b) => b.attack - a.attack);
     let highestAttack = [];
     let index = 0;
@@ -12,7 +12,7 @@ function getHighestAttack(rank, heroInfo){
     return highestAttack
 }
 
-function getHighestLive(rank, heroInfo){
+function getHighestLive(rank){
     heroInfo.sort((a, b) => b.live - a.live);
     let highestLive = [];
     index = 0;
@@ -23,4 +23,9 @@ function getHighestLive(rank, heroInfo){
     return highestLive;
 }
 
-console.log(getHighestAttack(10, heroInfo));
+function searchByName(name){
+    let target = heroInfo.find(a => a.name === name);
+    return target;
+}
+
+console.log(getHighestAttack(10));
