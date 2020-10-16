@@ -69,7 +69,7 @@ title: this title will be recognized by jekyll
 为了让渲染出来的网页出现数学公式，我们要在需要数学公式的网页(markdown 文件)头上（ymal 下面， markdown 正文上面）加上以下代码：
 ```
    <head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
