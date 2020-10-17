@@ -62,11 +62,11 @@ One method to analyze a problem that has a "circular" structure in it is to disc
 
 1. The first door MUST be open on the left-most room, or no cow can arrive at the left-most room.
 
-   ![image1](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_2_1.jpg)
+   ![image1](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_2_2.jpg)
 
 2. Suppose a cow enters the barn in door $k-1$, it must arrive its destination before $k$th door, or it can just enter the barn from $k$th door and have less walking distance inside the barn.
 
-   ![image2](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_2_2.jpg)
+   ![image2](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_2_1.jpg)
 
 Using these two facts, we can use the dynamic programming to solve the linear barn problem.
 
