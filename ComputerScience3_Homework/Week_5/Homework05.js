@@ -1159,6 +1159,9 @@ function changeType(hero) {
 var heroInfo = getHero();
 
 function getHighestAttack(rank){
+    if (rank > heroInfo.length){
+      rank = heroInfo.length;
+    }
     heroInfo.sort((a, b) => b.attack - a.attack);
     let highestAttack = [];
     let index = 0;
@@ -1184,5 +1187,3 @@ function searchByName(name){
     let target = heroInfo.find(a => a.name === name);
     return target;
 }
-
-console.log(getHighestAttack(10));
