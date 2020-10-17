@@ -173,7 +173,7 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 <h4>Week 5 - More Functions in Javascript</h4>
   <div style="width: 100%; height: 0.5em"></div>
     <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/10/16/Homework05.html");'>
-    Homework for Week 3
+    Homework for Week 5
   </button>
   &emsp;
   <button onclick='window.open("https://markchenyutian.github.io/Markchen_Blog/2020/10/09/Javascript-notes-week5.html");'>
