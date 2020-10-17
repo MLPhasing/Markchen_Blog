@@ -47,3 +47,51 @@ To minimize the time of try, we can first start at a random position, and note t
 ### Time Complexity Analysis
 
 Since $3\leq n\leq 1\times 10^5$, with the time complexity of $O(n)$, we can have at most $1\times 10^6$ computational step and we can AC this problem with Python 3 in the time limit.
+
+---
+
+## Problem 2 Circular Barn Revisited
+
+### Problem Summary
+
+The farmer wants to have exactly $r_i$ cows in room $i$, where $0\leq r_i \leq 1\times 10^6$. Although there are $n$ rooms in the circular barn, farmer John only want to open $k$ doors to let cows enter the barn ($1\leq k \leq 7$). All the cows can  ONLY walk clockwise inside the barn. He wants to know the minimum total distance for cows to move after entering the barn.
+
+### Proposed Solution
+
+One method to analyze a problem that has a "circular" structure in it is to discuss the problem in a linear structure, which is obviously easier. Consider there is a line of rooms in the barn, and the cows can only move from left to right. We will soon get some obvious facts:
+
+1. The first door MUST be open on the left-most room, or no cow can arrive at the left-most room.
+
+   ![image1](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_2_1.jpg)
+
+2. Suppose a cow enters the barn in door $k-1$, it must arrive its destination before $k$th door, or it can just enter the barn from $k$th door and have less walking distance inside the barn.
+
+   ![image2](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_2_2.jpg)
+
+Using these two facts, we can use the dynamic programming to solve the linear barn problem.
+
+Let $T$ represent a table of size $n\times (k-1)$.  The value of $T[n'][k']$ represent the minimum total distance the cow has walked when there's $k'+1$ (since the first door must be open) doors open in the first $n'$ doors. The calculation of table can be represent in this pseudocode:
+$$
+\begin{aligned}
+&\text{each element in }T = \infty\\
+&T[0][0] \leftarrow (0, 1)\\
+&\text{for }T[i][j] \text{ in } T\\
+&\quad \quad\text{if }T[i+1][j+1][0] > T[i][j][0]\\
+&\quad \quad \quad \quad T[i + 1][j + 1] \leftarrow (T[i][j][0], 0)\\
+&\quad \quad \text{if }T[i][j+1][0] > (T[i][j][0] + T[i][j][1] \times r_{j+1})\\
+&\quad \quad \quad \quad T[i][j + 1] \leftarrow (T[i][j][0] + T[i][j][1] \times r_{j+1}, T[i][j][1] + 1)\\
+&return\; T[k-1][n]
+\end{aligned}
+$$
+![image3](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_2_3.jpg)
+
+Each element in table $T$ is made up of a tuple, where the first element represent the minimum total distance the cow has walked when there's $k'$ doors open in the first $n'$ doors and the second element represent the distance of last opened door to  $n'$th door.
+
+By calculating through this table, we can get the minimum total distance walked when the bar has a start on one specific position with time complexity of $O(nk)$.
+
+Since the whole problem is based on a **circular barn**, we should try all $n$ possible starting points. Therefore, the total time complexity will be $O(n^2k)$.
+
+### Time Complexity Analysis
+
+Since $3\leq n\leq 100$ and $1\leq k \leq 7$, we can know that the whole algorithm will have at most $1\times 10^6$ steps to finish the calculate. Therefore, we can use Python 3 to AC this problem.
+
