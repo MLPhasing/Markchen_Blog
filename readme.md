@@ -169,6 +169,8 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
   </button>
 </div>
 
+<div style="width: 100%; height: 1em"></div>
+
 <div class="content_block">
 <h4>Week 5 - More Functions in Javascript</h4>
   <div style="width: 100%; height: 0.5em"></div>
