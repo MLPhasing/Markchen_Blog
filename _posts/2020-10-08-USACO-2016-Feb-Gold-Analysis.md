@@ -52,6 +52,8 @@ Since $3\leq n\leq 1\times 10^5$, with the time complexity of $O(n)$, we can hav
 
 ## Problem 2 Circular Barn Revisited
 
+[Link to Question](http://usaco.org/index.php?page=viewproblem2&cpid=622)
+
 ### Problem Summary
 
 The farmer wants to have exactly $r_i$ cows in room $i$, where $0\leq r_i \leq 1\times 10^6$. Although there are $n$ rooms in the circular barn, farmer John only want to open $k$ doors to let cows enter the barn ($1\leq k \leq 7$). All the cows can  ONLY walk clockwise inside the barn. He wants to know the minimum total distance for cows to move after entering the barn.
