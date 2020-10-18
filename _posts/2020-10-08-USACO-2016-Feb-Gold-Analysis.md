@@ -97,3 +97,39 @@ Since the whole problem is based on a **circular barn**, we should try all $n$ p
 
 Since $3\leq n\leq 100$ and $1\leq k \leq 7$, we can know that the whole algorithm will have at most $1\times 10^6$ steps to finish the calculate. Therefore, we can use Python 3 to AC this problem.
 
+---
+
+## Problem 3 Fenced In
+
+### Problem Summary
+
+There's a rectangle with corner $(0,0)$ and $(A, B)$. Farmer John built $n$ vertical fences at $x = a_1, a_2, \cdots a_n$ and $m$ horizontal fences at $y = b_1, b_2, \cdots, b_m$. By doing so, the whole rectangle is divided into $(n + 1)(m + 1)$ grids. Now, the farmer want to connect each grid together by removing some of the fences in the rectangle. What is the minimum distance of fence the farmer has to remove to connect EVERY cell in rectangle?
+
+### Proposed Solution
+
+We can see each cell in the rectangle as a node, while the fences between each cell as a bi-directional weighted edge, where the weight equals to the length of fence between two cells. By doing so, we can see the whole field as a graph.
+
+![image4](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_3_1.jpg)
+
+After we see the whole grid as a graph, we can find that the problem simply want us to provide the sum of weights of the **Minimum Span Tree** for the whole graph. Therefore, we can use the greedy algorithm to solve this problem. The pseudocode is shown below
+$$
+\begin{aligned}
+& // \text{Fringe is a Priority Queue that will always output the smallest element in it}\\
+&L =0\\
+&\text{Connected} = \phi \\
+&\text{Fringe} = \{ V_0.allEdges \} \\
+&\text{While Fringe is not Empty}\\
+&\quad \quad \text{newEdge } \leftarrow \text{Fringe.pop()}\\
+&\quad \quad \text{While newEdge.destination } \in \text{Connected}\\
+&\quad \quad \quad \quad \text{newEdge }\leftarrow \text{Fringe.pop()}\\
+&\quad \quad \text{Fringe }=\text{Fringe } \cup \text{ newEdge.destination.allEdges}\\
+&\quad \quad \text{Connected }=\text{Connected }\cup \text{ newEdge.destination}\\
+&\quad \quad L \leftarrow L+\text{newEdge.wieght}\\
+&return\quad L
+\end{aligned}
+$$
+
+
+### Time Complexity Analysis
+
+The time complexity of min-span tree algorithm is $O(E)$, which, in this case, equals to $O(mn)$. Since $0\leq m\leq 2000$ and $0\leq n\leq 2000$, the expected computational steps it will take will be at most $1\times 10^7$. Therefore, it is highly possible that we can use Python 3 to AC this problem.
