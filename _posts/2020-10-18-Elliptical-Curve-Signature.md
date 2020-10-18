@@ -114,4 +114,4 @@ $$
 
 在比特币的交易系统中，每个用户都会有一个随机生成的私钥，并且用SECP256K1算法计算出自己私钥所对应的公钥，在下面这张描述比特币交易流程的图中，最关键的部分之一就是通过上诉的身份验证算法确定确实是比特币的所有者在进行转账操作。
 
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_5.png" style="width:400px;"/>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_5.png"/>
