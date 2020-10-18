@@ -37,7 +37,7 @@ $$
 
 这样的曲线拥有这如下图所示的形状：
 
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_1.png" style="zoom:50%"></img>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_1.png" style="zoom:50%"/>
 
 这样的曲线有两个非常重要的性质：
 
@@ -54,19 +54,19 @@ $$
 
 如果我们把一次加法操作画在图上，那么 $A + B = C$的计算过程会是下面这样：
 
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_2.png" style="zoom:50%"></img>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_2.png" style="zoom:33%"/>
 
 从上面的途中，我们可以发现椭圆曲线上的点乘是满足交换律的，因为点 $A,B$ 定义的直线与点 $B,A$ 定义的直线是同一条。
 
 一种特殊的情况是 $A + A$。这样的情况下，我们得到的直线会是椭圆曲线在$A$点上的切线，也就是……
 
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_3.png" style="zoom:50%"></img>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_3.png" style="zoom:33%"/>
 
 ### 2.2 椭圆曲线上的乘法  | Product on Elliptical Curve
 
 如果一个椭圆曲线上进行了 $n$ 次$A + A$这样的加法操作，我们可以将其简写为 $A\times n$。例如：$A\times 3$的计算过程可以用这样的几何方法表现出来：
 
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_4.jpg" style="zoom:50%"></img>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_4.jpg" style="zoom:33%"/>
 
 [这个网站](https://andrea.corbellini.name/ecc/interactive/reals-add.html)提供了椭圆曲线加法和乘法的可视化
 
@@ -114,4 +114,4 @@ $$
 
 在比特币的交易系统中，每个用户都会有一个随机生成的私钥，并且用SECP256K1算法计算出自己私钥所对应的公钥，在下面这张描述比特币交易流程的图中，最关键的部分之一就是通过上诉的身份验证算法确定确实是比特币的所有者在进行转账操作。
 
-<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_5.png" style="zoom:50%"></img>
+<img src="https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_5.png" style="zoom:33%"/>
