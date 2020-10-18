@@ -8,11 +8,11 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 ### Table Of Content
-1. 什么是椭圆曲线 | What is Elliptical Curve
-2. 椭圆曲线上定义的运算符   | Arithmetic Defined on Elliptical Curve
-3. 椭圆曲线的改进 | Modification on Elliptical Curve
-4. 椭圆曲线与身份验证 | Elliptical Curve in Identity Verification
-5. 比特币交易系统中的椭圆曲线 | Elliptical Curve Signature in Bitcoin
+1. 什么是椭圆曲线 - What is Elliptical Curve
+2. 椭圆曲线上定义的运算符 - Arithmetic Defined on Elliptical Curve
+3. 椭圆曲线的改进 - Modification on Elliptical Curve
+4. 椭圆曲线与身份验证 - Elliptical Curve in Identity Verification
+5. 比特币交易系统中的椭圆曲线 - Elliptical Curve Signature in Bitcoin
 
 ## 1. 什么是椭圆曲线 | What is Elliptical Curve
 
