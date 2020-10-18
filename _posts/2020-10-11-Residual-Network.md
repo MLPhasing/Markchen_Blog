@@ -15,6 +15,7 @@ excerpt_separator: <!--more-->
             }
         });
     </script>
+    <script src="https://markchenyutian.github.io/Markchen_Blog/Asset/JavaScript/LinkCard.js"></script>
 </head>
 在深度学习中，两个严重影响了模型效果的问题是梯度消失问题与梯度下降问题。这两个问题的出现与深度学习的根本机制 - 反向传播损失函数梯度有关。在很长一段时间里，人们认为超过100层的网络是“不可训练”的。然而残差网络 (Residual Network, ResNet) 的出现改变了这一切。通过设计“短路”机制，残差网络可以让梯度更好的在网络的层之间传播，从而使得训练500+层的超深神经网络成为了可能。相似的机制也启发了一大批拥有shortcut connection的神经网络，例如在医学图像处理领域常见的 U-net 和 Dense Net。
 <!--more-->
@@ -77,9 +78,15 @@ excerpt_separator: <!--more-->
 
 ## 5. 深度残差网络与其他类似模型
 
+### 5.1 DenseNet
+
 深度残差网络也启发了一些类似的网络类型，其中较为经典的包括 DenseNet， 在Dense Net中，短接链接的数量被增加了，每一个卷积层都会有一条专门的短接链接将自己的输出直接传播给较前的卷积层。
 
 ![Dense Net Illustration](https://markchenyutian.github.io/Markchen_Blog/Asset/ResNet4.jpg)
+
+### 5.2 U-net
+
+<a href="https://markchenyutian.github.io/Markchen_Blog/2020/10/09/U-net.html" class="LinkCard">U-net 医学图像分割网络</a>
 
 ---
 

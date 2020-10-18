@@ -1,56 +1,5 @@
 <head>
-    <script type="text/javascript" src="../ComputerScience3_Homework/Week_5/Homework05.js"></script>
-    <script type="text/javascript" src="../ComputerScience3_Homework/Week_5/htmlInteraction.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/Version4.css">
-    <link rel="stylesheet" href="../Asset/css/Unified_Style.css">
+	<script src="https://cdn.jsdelivr.net/gh/Sanarous/files@1.13/js/linkcard.js"></script>
 </head>
 
-<script>
-    function getTextBoxNumber(){
-        while (true){
-            if (document.getElementById("inputBox1").value * 1 == false){alert("invalid input");}
-            else{return document.getElementById("inputBox1").value * 1;}
-        }
-    }
-    function getTextBoxContent(){return document.getElementById("inputBox1").value;}
-    function getHighestHp(){
-        let number = getTextBoxNumber();
-        let result = getHighestLive(number);
-        let lastPara = document.getElementById("newOutput");
-        if (lastPara != null){deleteAllCards();}
-        createCards(result);
-    }
-    function getHighestAtt(){
-        let number = getTextBoxNumber();
-        let result = getHighestAttack(number);
-        let lastPara = document.getElementById("newOutput");
-        if (lastPara != null){deleteAllCards();}
-        createCards(result);
-    }
-    function getSpecificHero(){
-        let inputContent = getTextBoxContent();
-        let result = searchByName(inputContent);
-        let lastPara = document.getElementById("newOutput");
-        if (lastPara != null){deleteAllCards();}
-        if (result == undefined){alert("Can't find Hero with the Name you typed."); return;}
-        createCard(result);
-    }
-</script>
-
-<section class="main-content">
-<form style="font-size: 0;">
-    <input type="text" name="Number" id="inputBox1" style="padding: 20px 20px; border-radius: 10px 0 0 10px; font-size: 18px; border:1px 0px 1px 1px whitesmoke"/>
-    <input type="button" name="getHighestAttack" value="Search By Name" onclick="getSpecificHero();" style="padding: 22px 20px; font-size: 18px; border: 1px whitesmoke; background-color: #F2FcFA;"/>
-    <input type="button" name="getHighestAttack" value="Get top Attack" onclick="getHighestAtt();" style="padding: 22px 20px; font-size: 18px; border: 1px whitesmoke; background-color: #F2FcFA;"/>
-    <input type="button" name="getHighestHP" value="Get top HP" onclick="getHighestHp();" style="padding: 22px 20px; border-radius: 0 10px 10px 0; font-size: 18px; border: 2px whitesmoke; background-color: #ddf6f3;"/>
-</form>
-
-<div id = "outputArea">
-
-</div>
-</section>
+<a href="https://chukuangren.com" class="LinkCard">楚狂人</a>
