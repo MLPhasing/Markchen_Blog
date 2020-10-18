@@ -107,6 +107,7 @@ $$
 =&Z_A\times K_B
 \end{aligned}
 $$
+
 通过这样的方式，就可以在双方不透露自己私钥的情况下完成身份认证了。
 
 ## 5. 比特币交易系统中的椭圆曲线 | Elliptical Curve Signature in Bitcoin
