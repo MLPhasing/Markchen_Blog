@@ -112,6 +112,7 @@ We can see each cell in the rectangle as a node, while the fences between each c
 ![image4](https://markchenyutian.github.io/Markchen_Blog/Asset/USACO_2016_Feb_3_1.jpg)
 
 After we see the whole grid as a graph, we can find that the problem simply want us to provide the sum of weights of the **Minimum Span Tree** for the whole graph. Therefore, we can use the greedy algorithm to solve this problem. The pseudocode is shown below
+
 $$
 \begin{aligned}
 & // \text{Fringe is a Priority Queue that will always output the smallest element in it}\\
@@ -128,7 +129,6 @@ $$
 &return\quad L
 \end{aligned}
 $$
-
 
 ### Time Complexity Analysis
 
