@@ -41,7 +41,7 @@ function createCard(HeroObject){
     newParaContainer.innerHTML = heroToString(HeroObject);
 
     let newImageContainer = document.createElement("img");
-    newImageContainer.setAttribute("style", "display: flex; min-width: 150px;");
+    newImageContainer.setAttribute("style", "display: flex; min-width: 150px; max-width: 150px;");
     newImageContainer.src=(HeroObject.img_url);
 
     let emptyBar = document.createElement("div");
