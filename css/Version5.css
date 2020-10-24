@@ -152,6 +152,12 @@ content {
   padding: 20px;
 }
 
+block_box{
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 side_block{
   box-shadow: inset 3px 4px 3px #666666;
   border-radius: 5px;
