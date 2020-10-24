@@ -128,8 +128,23 @@
 
 body_content { padding: 0; margin: 0; font-family: "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; display:flex}
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body_content > *:not(main) {
+  min-width: 20vw;
+}
+
+body_content > main-content{
+  flex: 1;
+  margin: 1vh 0;
+}
+
 content {
-  background-color: none;
+  background-color: #e9e9e9;
   width: fit-content;
   height: 100%;
   display: flex;
@@ -140,8 +155,6 @@ content {
 side_block{
   box-shadow: inset 3px 4px 3px #666666;
 }
-
-
 
 a { color: #1e6bb8; text-decoration: none; }
 a:hover { text-decoration: none; }
