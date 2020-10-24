@@ -154,6 +154,7 @@ content {
 
 side_block{
   box-shadow: inset 3px 4px 3px #666666;
+  border-radius: 5px;
 }
 
 a { color: #1e6bb8; text-decoration: none; }
