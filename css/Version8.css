@@ -159,11 +159,12 @@ block_box{
 }
 
 side_block{
-  box-shadow: inset 3px 4px 3px #666666;
-  border-radius: 5px;
+  box-shadow: inset 3px 4px 10px #999999;
+  border-radius: 10px;
   display: flex;
   flex: 0 0 25em;
-  padding: 10px;
+  padding: 13px;
+  width:300px;
 }
 
 a { color: #1e6bb8; text-decoration: none; }
