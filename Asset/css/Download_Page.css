@@ -17,7 +17,7 @@
   box-shadow: 3px 5px 6px black;
   padding: 10px;
   flex-grow: 0;
-  flex-basis: 150px;
+  flex-basis: 230px;
   margin: auto;
   transition: 0.3s;
   margin-bottom: 50px;
@@ -29,5 +29,6 @@
 }
 img{
   border-radius: 10px;
-  width:100%;
+  width: 30%;
+  float: center;
 }
