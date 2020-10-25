@@ -122,15 +122,16 @@ This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the
 </div>
 
 <a href="https://markchenyutian.github.io/Markchen_Blog/site/AP_Notes.html">
-<div class="card">
-    <div class="title_container">
-        <h4> AP Notes Sharing Platform </h4>
+    <div class="card">
+        <div class="title_container">
+            <h4> AP Notes Sharing Platform </h4>
+        </div>
+        <div class="container">
+            Currently, the notes of these subjects are available: Biology, Physics 2, Physics 1, Physics CEM, Physics CM, Calculus BC, Statistics, Microeconomics, Chemistry (AP & SAT II), and Computer Science A
+        </div>
     </div>
-    <div class="container">
-        Currently, the notes of these subjects are available: Biology, Physics 2, Physics 1, Physics CEM, Physics CM, Calculus BC, Statistics, Microeconomics, Chemistry (AP & SAT II), and Computer Science A
-    </div>
-</div>
 </a>
+<div style="width: 100%; height: 0.6em"></div>
 
 ----------
 
