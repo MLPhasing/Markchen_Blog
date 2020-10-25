@@ -9,22 +9,23 @@
         </side_block>
 
     </br>
-
     <side_block style="order: 1;">
-    <h4 style="font-weight: normal; color: #159957; font-size:120%;">All Posts</h4>
-    <br/>
-        {% for tag in site.tags %}
-            {{ tag[0] }} [{{tag[1] | size}}]
-            <br>
-        {% endfor %}
+        <div>
+        <h4 style="font-weight: normal; color: #159957; font-size:120%;">All Posts</h4>
+        <br/>
+            {% for tag in site.tags %}
+                {{ tag[0] }} [{{tag[1] | size}}]
+                <br>
+            {% endfor %}
+        </div>
     </side_block>
-
     <br/>
-
     <side_block style="order: 2;">
-    <h4 style="font-weight: normal; color: #159957; font-size:120%;">Link to Other Websites</h4>
-    <br/>
-    <a href="https://markchenyutian.github.io/GZFLS_Math_Club/">Math Club @ CHGZFLS</a>
+        <div>
+        <h4 style="font-weight: normal; color: #159957; font-size:120%;">Link to Other Websites</h4>
+        <br/>
+        <a href="https://markchenyutian.github.io/GZFLS_Math_Club/">Math Club @ CHGZFLS</a>
+        </div>
     </side_block>
     </block_box>
 </content>
