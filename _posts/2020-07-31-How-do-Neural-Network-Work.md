@@ -3,6 +3,7 @@ layout: post
 title: "神经网络如何工作 | How does Neural Network Work"
 tags: Neural_Network
 excerpt_separator: <!--more-->
+title_image: "https://markchenyutian.github.io/Markchen_Blog/Asset/4.png"
 ---
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

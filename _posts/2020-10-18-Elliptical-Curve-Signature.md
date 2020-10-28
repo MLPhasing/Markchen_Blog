@@ -3,6 +3,7 @@ layout: post
 title: Technical Foundation for Bitcoin 1 - Elliptical Curve Signature Algorithm
 tags: Cryptocurrency
 excerpt_separator: <!--more-->
+title_image: "https://markchenyutian.github.io/Markchen_Blog/Asset/Elliptical_Curve_1.png"
 ---
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

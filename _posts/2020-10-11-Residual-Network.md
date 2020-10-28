@@ -3,6 +3,7 @@ layout: post
 title: 深度残差网络  |  Residual Network
 tags: Neural_Network
 excerpt_separator: <!--more-->
+title_image: "https://markchenyutian.github.io/Markchen_Blog/Asset/ResNet1.png"
 ---
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

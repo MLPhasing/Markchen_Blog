@@ -3,6 +3,7 @@ layout: post
 tags: Neural_Network
 excerpt_separator: <!--more-->
 title: "长短期记忆递归网络 | Long-Short Term Memory (LSTM) Network"
+title_image: "Https://markchenyutian.github.io/Markchen_Blog/Asset/image-20200402223614052.png"
 ---
 
 <head>

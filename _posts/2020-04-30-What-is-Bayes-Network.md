@@ -3,6 +3,7 @@ layout: post
 tags: Machine_Learning
 excerpt_separator: <!--more-->
 title: "什么是贝叶斯网络 | What is Bayes Network"
+title_image: "https://markchenyutian.github.io/Markchen_Blog/Asset/Bayes3.png"
 ---
 
 <head>
