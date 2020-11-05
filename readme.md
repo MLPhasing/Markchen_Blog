@@ -6,14 +6,13 @@ permalink: index.html
 <link rel="stylesheet" type="text/css" href="Asset/css/Unified_Style.css">
 </head>
 
+# ⚠ Important Notification
+
+We are rebuilding this site using `React-App` and `Ant Design` components. You can also access [Mark's React App](https://markchenyutian.github.io/ReactApp/) to see the posts and get a better experience.
 
 ## About This Site
 
-This site is maintained by Mark Chen (*markyutianchen@gmail.com*). Currently the site is in the <mark>Testing phase</mark>[^1] and here are the features in current plan:
-* Resource Sharing - e-books about Computer Science and Mathematics.
-* Article Sharing - Articles about Machine Learning & Neural Network, Bitcoin & Block Chain
-* Code Sharing - Implementation of algorithms in Python3 etc.
-
+This site is maintained by Mark Chen (*markyutianchen@gmail.com*).
 > Due to some reasons, accessing such a site built on GitHub may need VPN.
 
 ----------
