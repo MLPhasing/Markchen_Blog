@@ -6,9 +6,9 @@ permalink: index.html
 <link rel="stylesheet" type="text/css" href="Asset/css/Unified_Style.css">
 </head>
 
-# ⚠ Important Notification
+# ⚠ Notification
 
-We are rebuilding this site using `React-App` and `Ant Design` components. You can also access [Mark's React App (https://markchenyutian.github.io/mark-blog/)](https://markchenyutian.github.io/mark-blog/) to see the posts and get a better experience.
+I'm rebuilding this site using `React-App` and `Ant Design` components. You can also access [Mark's React App (https://markchenyutian.github.io/mark-blog/)](https://markchenyutian.github.io/mark-blog/) to see the posts and get a better experience.
 
 ## About This Site
 
